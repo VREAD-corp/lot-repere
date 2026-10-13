@@ -1,5 +1,5 @@
 {
-  "SALES_OPEN": false,
+  "SALES_OPEN": true,
   "quotesEnabled": false,
   "products": {
     "lot-repere-3m": 4900,

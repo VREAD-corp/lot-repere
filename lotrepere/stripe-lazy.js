@@ -49,7 +49,13 @@
   }
   function onHash() { if (location.hash === '#commander-h') start(); }
 
-  if (location.hash === '#commander-h' || /[?&]devis=/.test(location.search)) { start(); return; }
+  // Arriving on the order section: start once the deferred scripts have run (cro.js draws the A/B arm and
+  // checkout/xp-price.js switches the 12-month radio to it), so pay.js never reads the arm-a radio of an arm-b tab.
+  if (location.hash === '#commander-h' || /[?&]devis=/.test(location.search)) {
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
+    else start();
+    return;
+  }
   events.forEach(function (ev) { form.addEventListener(ev, start, { capture: true, passive: true }); });
   document.addEventListener('click', onLinkClick, true);
   window.addEventListener('hashchange', onHash);
