@@ -1,0 +1,74 @@
+name: Mise à jour et publication
+
+on:
+  schedule:
+    # 05:40 and 17:40 UTC: after BOAMP's two daily publications
+    - cron: "40 5,17 * * *"
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Re-fetch notices published since YYYY-MM-DD (optional backfill)"
+        required: false
+  push:
+    branches: [main]
+    paths-ignore: ["data/**", "**.md"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-and-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Tests
+        run: |
+          pip install -r requirements-dev.txt
+          python -m pytest -q
+      - name: Fetch BOAMP + TED
+        env:
+          SINCE: ${{ github.event.inputs.since }}
+        run: |
+          if [ -n "$SINCE" ]; then python -m lotrepere update --since "$SINCE"; else python -m lotrepere update; fi
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data change"
+          else
+            git commit -m "data: mise à jour $(date -u +'%Y-%m-%d %H:%M') UTC"
+            # GitHub sometimes rejects a push transiently ("fatal error in commit_refs", 2026-10-12): retry,
+            # and never block the site deploy (the paid alerts read data/ouverts.json from Pages).
+            for i in 1 2 3; do
+              if git pull --rebase origin main && git push origin HEAD:main; then break; fi
+              if [ "$i" = 3 ]; then echo "::warning::data commit not pushed after 3 attempts; the site is still deployed"; break; fi
+              sleep $((i * 15))
+            done
+          fi
+      - name: Build site
+        run: python -m lotrepere build --out _site
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
