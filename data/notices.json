@@ -88168,6 +88168,97 @@
    ]
   },
   {
+   "id": "boamp:26-99703",
+   "source": "BOAMP",
+   "source_id": "26-99703",
+   "title": "ENTRETIEN DES DIFFERENTS ESPACES VERTS DE LA VILLE D'EPERNON",
+   "buyer": "COMMUNE D'EPERNON",
+   "published": "2026-10-14",
+   "deadline": "2026-11-19T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99703",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "27",
+    "28",
+    "75",
+    "77",
+    "78",
+    "91"
+   ],
+   "regions": [
+    "Centre-Val de Loire",
+    "Normandie",
+    "Île-de-France"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-99731",
+   "source": "BOAMP",
+   "source_id": "26-99731",
+   "title": "NETTOYAGE DES PARCS, AIRES DE JEUX ET COURS D'ECOLES",
+   "buyer": "Ville de Chanteloup-les-Vignes",
+   "published": "2026-10-14",
+   "deadline": "2026-11-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99731",
+   "procedure_id": null,
+   "description": "Le nettoyage des parcs, squares, aires collectives de jeux extérieures et des cours d'écoles de la Ville de CHANTELOUP LES VIGNES.",
+   "departments": [
+    "78"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
    "id": "ted:707523-2026",
    "source": "TED",
    "source_id": "707523-2026",
