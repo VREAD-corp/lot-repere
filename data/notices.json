@@ -88967,6 +88967,181 @@
    ]
   },
   {
+   "id": "boamp:26-100093",
+   "source": "BOAMP",
+   "source_id": "26-100093",
+   "title": "Prestations de nettoyage des locaux, des abords du site et des murs rideaux.",
+   "buyer": "Centre Historique Minier",
+   "published": "2026-10-15",
+   "deadline": "2026-11-20T15:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100093",
+   "procedure_id": null,
+   "description": "nettoyage des locaux accueillant du publics, ramassage des détritus, nettoyage des murs rideaux, vitreries de hauteur et pare-soleils.",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911200",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "nettoyage des locaux accueillant du public et ramassage des détritus/papiers des abords du site",
+    "nettoyage des murs rideaux du hall d'accueil, vitreries de hauteur et pare-soleils."
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-100280",
+   "source": "BOAMP",
+   "source_id": "26-100280",
+   "title": "Prestations de maitrise d'oeuvre répondant à un projet d'aménagement des espaces extérieurs de l'ensemble immobilier « Charolais » situé au 43 rue du Charolais à Paris 12ème",
+   "buyer": "Fonds de Garantie des Assurances Obligatoires de Dommages",
+   "published": "2026-10-15",
+   "deadline": "2026-11-12T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100280",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "94"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-100289",
+   "source": "BOAMP",
+   "source_id": "26-100289",
+   "title": "Prestations de nettoyage des locaux et vitrerie pour la DDSIS du Gers",
+   "buyer": "SDIS DU GERS",
+   "published": "2026-10-15",
+   "deadline": "2026-11-13T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100289",
+   "procedure_id": null,
+   "description": "Prestations de nettoyage des locaux et de la vitrerie pour la direction départementale du Sdis du Gers",
+   "departments": [
+    "32"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des locaux",
+    "Nettoyage de la vitrerie"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "363",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-100403",
+   "source": "BOAMP",
+   "source_id": "26-100403",
+   "title": "Nettoyage des locaux",
+   "buyer": "Communauté de Communes Carnelle Pays-de-France",
+   "published": "2026-10-15",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100403",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
    "id": "boamp:26-99154",
    "source": "BOAMP",
    "source_id": "26-99154",
