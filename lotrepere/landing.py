@@ -198,8 +198,8 @@ def about(site) -> str:
     return f"""<section class="about" id="qui-sommes-nous" aria-labelledby="about-h">
 <div class="about-intro">
 <p class="eyebrow">Qui publie ce site</p>
-<h2 id="about-h">READ FRANCE SAS, Paris</h2>
-<p>{BRAND} est édité par <strong>READ FRANCE SAS</strong> (SIREN 988 741 773, 11 rue Rouvet, 75019 Paris). Les annonces sont relevées et triées par un programme, sans intelligence artificielle ; Octave, l'assistant IA de READ FRANCE, a écrit ce programme et les textes du site, relus avant publication.</p>
+<h2 id="about-h">Jalonel, Paris</h2>
+<p>{BRAND} est un service <strong>Jalonel</strong>, une marque de READ FRANCE SAS (SIREN 988 741 773, 11 rue Rouvet, 75019 Paris). Les annonces sont relevées et triées par un programme, sans intelligence artificielle ; Octave, l'assistant IA de READ FRANCE, a écrit ce programme et les textes du site, relus avant publication.</p>
 <p class="about-foot">Une question avant de vous abonner, un métier à ajouter ? Écrivez à <a href="mailto:{CONTACT}">{CONTACT}</a>.</p>
 </div>
 </section>"""
@@ -445,7 +445,7 @@ def alerts_bottom(site, vol: Volume) -> str:
 <section class="section legal-note" id="limites" aria-labelledby="limites-h">
 <h2 id="limites-h">Sources et limites</h2>
 <p>Sélection automatique d'avis publiés au BOAMP (DILA) et dans TED (Office des publications de l'Union européenne), sans intelligence artificielle. Elle n'est pas exhaustive et repose sur les codes choisis par les acheteurs : vérifiez toujours l'avis officiel et le dossier de consultation. <a href="{site.link('methode/')}">Méthode et sources</a>.</p>
-<p class="small muted">Service indépendant de READ FRANCE SAS, ni affilié ni approuvé par la DILA ou l'Office des publications de l'UE.</p>
+<p class="small muted">Service indépendant de Jalonel (marque de READ FRANCE SAS), ni affilié ni approuvé par la DILA ou l'Office des publications de l'UE.</p>
 </section>
 """
 

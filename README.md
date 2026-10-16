@@ -2,9 +2,9 @@
 
 Open French public tenders in three trades, **nettoyage et propreté des locaux**, **espaces verts** and **sécurité privée**, refreshed twice a day from free official open data and published as a static site with filters, RSS/Atom, JSON and weekly CSV/ICS exports. Paid add-on: a daily e-mail alert per trade, region and keyword (prepaid 3 or 12 months, B2B).
 
-**Site:** https://outils.vread.fr/lot-repere/ (fallback host until a brand domain is bought)
+**Site:** https://lot-repere.jalonel.com/ (served at the root of the subdomain; `--site-url` / `SITE_URL` default)
 
-A service of READ FRANCE SAS. Built by copying the pipeline of `VREAD-corp/veille-ao-formation` (MIT, same owner) into this new repo on 2026-10-13; the two repos share no code at runtime. No accounts, no cookies, no LLM at runtime.
+Brand **Jalonel** (https://jalonel.com/), a brand of READ FRANCE SAS (legal operator, named in the legal notice, CGV and invoices). 2026-10-16: moved from https://outils.vread.fr/lot-repere/ (old URLs redirect). IndexNow key file `5be19f56d46ca3d2553bee28ebfa8edd.txt` is written at the site root by the build. Built by copying the pipeline of `VREAD-corp/veille-ao-formation` (MIT, same owner) into this new repo on 2026-10-13; the two repos share no code at runtime. No accounts, no cookies, no LLM at runtime.
 
 ## What it does
 
@@ -43,7 +43,7 @@ No automatic renewal. Terms: `/cgv-pro/`, version `cgv-pro-lot-repere-2026-10-13
 
 `lotrepere/checkout/pay.js`, `devis.js`, `order.js`, `lotrepere/mesure.js`, `lotrepere/cro.js` and `tests/cro.check.mjs` are verbatim copies of `octave-checkout/gas/web/` (checked by the tests when that repo sits next to this one). Tracking site id: `lot-repere`. `octave_notrack=1` in the URL disables counting for tests.
 
-Test builds: `SALES_CONFIG=/path/to/sales.json SALES_ALLOW_TEST=1 python -m lotrepere --site-url http://host/lot-repere/ build --out out` accepts a non-Apps-Script endpoint ending in `/exec` and a `pk_test_` key.
+Test builds: `SALES_CONFIG=/path/to/sales.json SALES_ALLOW_TEST=1 python -m lotrepere --site-url http://host/ build --out out` accepts a non-Apps-Script endpoint ending in `/exec` and a `pk_test_` key.
 
 ## Automation (GitHub Actions)
 

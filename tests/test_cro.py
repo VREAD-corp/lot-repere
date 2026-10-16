@@ -17,9 +17,9 @@ ROOT = Path(__file__).resolve().parent.parent
 FIX = Path(__file__).parent / "fixtures"
 GAS_WEB = ROOT.parent / "octave-checkout" / "gas" / "web"
 NOW = datetime(2026, 10, 13, 10, 0, tzinfo=timezone.utc)
-SITE = "https://outils.vread.fr/lot-repere/"
-TAG = re.compile(r'<script src="/lot-repere/cro\.js" data-site="([^"]+)" data-api="([^"]+)" '
-                 r'data-hosts="outils\.vread\.fr" data-cta="\[data-cta\]" defer></script>')
+SITE = "https://lot-repere.jalonel.com/"
+TAG = re.compile(r'<script src="/cro\.js" data-site="([^"]+)" data-api="([^"]+)" '
+                 r'data-hosts="lot-repere\.jalonel\.com outils\.vread\.fr" data-cta="\[data-cta\]" defer></script>')
 
 
 @pytest.mark.skipif(not shutil.which("node"), reason="node not installed")
@@ -38,7 +38,8 @@ def test_tracking_files_match_octave_checkout():
 
 def test_mesure_counts_this_site_under_its_own_id():
     js = (ROOT / "lotrepere" / "mesure.js").read_text(encoding="utf-8")
-    assert CRO_API in js and "lot-" in re.search(r"site:/\^\(([^)]*)\)/", js).group(1)
+    # on lot-repere.jalonel.com the host maps to the site id; on outils.vread.fr/lot-repere/ the path prefix does
+    assert CRO_API in js and "'lot-repere':'lot-repere'" in js and "lot-" in re.search(r"site:J\|\|\(/\^\(([^)]*)\)/", js).group(1)
     assert "octave_notrack" in js and "v:2" in js
     assert CRO_SITE == "lot-repere"
 
@@ -62,7 +63,7 @@ def test_every_page_loads_tracking(tmp_path, monkeypatch, open_):
         html = page.read_text(encoding="utf-8")
         m = TAG.search(html)
         assert m and m.groups() == (CRO_SITE, CRO_API), page
-        assert html.count('src="/lot-repere/cro.js"') == 1 and html.count('src="/lot-repere/mesure.js"') == 1, page
+        assert html.count('src="/cro.js"') == 1 and html.count('src="/mesure.js"') == 1, page
         assert html.index("static/xp-config.js") < html.index("/cro.js") < html.index("/static/cro-goals.js"), page
         assert "window.OCTAVE_XP" not in html, page  # config in a file: the order pages forbid inline scripts
     if open_:

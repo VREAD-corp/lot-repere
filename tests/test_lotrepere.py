@@ -316,6 +316,12 @@ def test_site_build(tmp_path, boamp_records, ted_notices):
                  "mentions-legales/index.html", "confidentialite/index.html", "static/style.css", "static/app.js",
                  "static/xp-config.js", "mesure.js", "cro.js"]:
         assert (out / path).exists(), path
+    assert (out / "5be19f56d46ca3d2553bee28ebfa8edd.txt").read_text() == "5be19f56d46ca3d2553bee28ebfa8edd"  # IndexNow
+    assert "Jalonel est une marque de READ FRANCE SAS." in (out / "mentions-legales" / "index.html").read_text()
+    for path in ["index.html", "404.html", "alertes/index.html"]:
+        footer = (out / path).read_text().split('<footer class="foot">')[1]
+        assert '<a href="https://jalonel.com/">Une marque Jalonel</a>' in footer and "READ FRANCE" not in footer, path
+        assert "outils.vread.fr" not in footer, path
     feed = json.loads((out / "data" / "ouverts.json").read_text())
     assert feed["niches"]["securite"] == "Sécurité privée" and all(t["niches"] for t in feed["tenders"])
     sitemap = (out / "sitemap.xml").read_text()
@@ -357,5 +363,6 @@ def test_home_jsonld(tmp_path, boamp_records, ted_notices):
     types = {i["@type"] for i in items}
     assert types == {"WebSite", "Organization", "Dataset"}
     org = next(i for i in items if i["@type"] == "Organization")
-    assert org["name"] == "Lot Repéré" and org["parentOrganization"]["name"] == "READ FRANCE SAS"
+    assert org["name"] == "Lot Repéré" and org["parentOrganization"]["@id"] == "https://jalonel.com/#org"
+    assert org["parentOrganization"]["parentOrganization"]["name"] == "READ FRANCE SAS"
     assert "aggregateRating" not in html and "review" not in html.lower().replace("preview", "")

@@ -19,7 +19,7 @@ from .site import Site
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "notices.json"
 META = ROOT / "data" / "meta.json"
-DEFAULT_SITE_URL = "https://outils.vread.fr/lot-repere/"
+DEFAULT_SITE_URL = "https://lot-repere.jalonel.com/"
 RECENT_DAYS = 14
 
 log = logging.getLogger("lotrepere")

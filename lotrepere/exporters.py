@@ -153,7 +153,7 @@ def to_atom(items: list[Notice], now: datetime, site_url: str) -> str:
         f'<link rel="self" type="application/atom+xml" href="{escape(site_url)}feed.xml"/>',
         f"<id>{escape(site_url)}</id>",
         f"<updated>{updated}</updated>",
-        "<author><name>Lot Repéré (READ FRANCE SAS)</name></author>",
+        "<author><name>Lot Repéré (Jalonel)</name></author>",
         f"<rights>{escape(ATTRIBUTION)}</rights>",
     ]
     for t in items:

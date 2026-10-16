@@ -30,7 +30,8 @@ MESURE = Path(__file__).resolve().parent / "mesure.js"
 CRO = Path(__file__).resolve().parent / "cro.js"
 CRO_SITE = "lot-repere"
 CRO_API = "https://script.google.com/macros/s/AKfycbzD1IRL8QALluKGZxgGiORFP6-DkC_qFJYR9aOxZiimxa06nbCqpzUI-9iLblp6V2VY/exec"
-CRO_HOSTS = "outils.vread.fr"
+CRO_HOSTS = "lot-repere.jalonel.com outils.vread.fr"
+INDEXNOW_KEY = "5be19f56d46ca3d2553bee28ebfa8edd"
 # Time to first CTA = first click on a paid-alerts call to action (links to /alertes/ or #commander-h, pay button).
 CRO_CTA = "[data-cta]"
 
@@ -40,6 +41,11 @@ PUBLISHER = {
     "address": "11 rue Rouvet, 75019 Paris",
     "president": "Tanguy Warsmann",
 }
+
+# Brand: Jalonel (hub https://jalonel.com/), a brand of READ FRANCE SAS (the legal operator). Publisher of every page.
+JALONEL_URL = "https://jalonel.com/"
+JALONEL_ORG = {"@type": "Organization", "@id": "https://jalonel.com/#org", "name": "Jalonel", "url": JALONEL_URL,
+               "parentOrganization": {"@type": "Organization", "name": "READ FRANCE SAS", "identifier": "SIREN 988741773"}}
 
 # Date of the last change to the page templates (copy, layout). Pages without notice data use it as their
 # sitemap lastmod; update it by hand when a template changes.
@@ -93,15 +99,12 @@ class Site:
 
     @property
     def org_ref(self) -> dict:
-        return {"@type": "Organization", "@id": self.org_id, "name": BRAND}
+        return JALONEL_ORG
 
     def org_node(self) -> dict:
         return {"@context": "https://schema.org", "@type": "Organization", "@id": self.org_id, "name": BRAND,
                 "url": self.url, "email": landing.CONTACT, "logo": self.url + "static/og.png",
-                "parentOrganization": {"@type": "Organization", "name": "READ FRANCE SAS", "address": {
-                    "@type": "PostalAddress", "streetAddress": "11 rue Rouvet", "postalCode": "75019",
-                    "addressLocality": "Paris", "addressCountry": "FR"},
-                    "sameAs": "https://annuaire-entreprises.data.gouv.fr/entreprise/988741773"}}
+                "parentOrganization": JALONEL_ORG}
 
     def link(self, path: str = "") -> str:
         return self.base + path
@@ -194,9 +197,9 @@ class Site:
 <a href="{self.link('confidentialite/')}">Confidentialité</a>
 {f'<a href="{self.link("cgv-pro/")}">CGV</a>' if self.sales.open else ''}
 <a href="{REPO_URL}">Code source</a>
-<a href="https://outils.vread.fr/">Autres outils READ FRANCE</a>
+<a href="{JALONEL_URL}">Autres outils Jalonel</a>
 </nav>
-<p>{BRAND} est un service de READ FRANCE SAS (SIREN 988 741 773), Paris.</p>
+<p class="jalonel"><a href="{JALONEL_URL}">Une marque Jalonel</a></p>
 </div>
 </footer>
 {sticky_html}
@@ -287,6 +290,9 @@ class Site:
         shutil.copytree(STATIC, self.out / "static")
         shutil.copyfile(MESURE, self.out / "mesure.js")
         shutil.copyfile(CRO, self.out / "cro.js")
+        # IndexNow key (served at the site root) and the custom domain (ignored by Pages workflow builds, kept for clarity).
+        (self.out / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
+        (self.out / "CNAME").write_text(f"{urlparse(self.url).hostname}\n", encoding="utf-8")
 
         self.tenders = tenders
         open_items = sorted((t for t in tenders if t.is_open(self.now)), key=lambda t: (t.deadline or "", t.id))
@@ -584,6 +590,7 @@ class Site:
 <h1>Mentions légales</h1>
 <h2>Éditeur</h2>
 <p>{BRAND} est un service édité par {e(p['name'])} (société par actions simplifiée au capital de 1 000 €), SIREN {e(p['siren'])}, RCS Paris, siège social : {e(p['address'])}. Informations issues du <a href="https://annuaire-entreprises.data.gouv.fr/entreprise/988741773">registre public</a>.</p>
+<p>Jalonel est une marque de READ FRANCE SAS.</p>
 <p>Directeur de la publication : {e(p['president'])}, président.</p>
 <p>Contact : <a href="mailto:{landing.CONTACT}">{landing.CONTACT}</a>.</p>
 <h2>Hébergement</h2>
