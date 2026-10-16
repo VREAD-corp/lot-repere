@@ -91437,6 +91437,230 @@
    ]
   },
   {
+   "id": "boamp:26-100704",
+   "source": "BOAMP",
+   "source_id": "26-100704",
+   "title": "Reconnaissance patrimoniale des réseaux Aep exploités par Egl en classe A sur la commune de Décines Charpieu",
+   "buyer": "La Régie Eau du Grand Lyon",
+   "published": "2026-10-16",
+   "deadline": "2026-11-24T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100704",
+   "procedure_id": null,
+   "description": "prestations de référencement en classe de précision \"A\" d'environ 89 km de réseaux d'eau potable exploités par EGL sur la commune de Décines-Charpieu, tel que défini dans le CCTP",
+   "departments": [
+    "69"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "79714100"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "306"
+   ]
+  },
+  {
+   "id": "boamp:26-100714",
+   "source": "BOAMP",
+   "source_id": "26-100714",
+   "title": "Service d'entretien et de maintenance des installations de sécurité incendie et alarmes anti-intrusion des bâtiments communaux du groupement de commandes de la ville de Mèze et son",
+   "buyer": "Ville de Mèze",
+   "published": "2026-10-16",
+   "deadline": "2026-11-20T18:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100714",
+   "procedure_id": null,
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Le contrat est susceptible d'être reconduit dans les conditions du cahier des charges. Les prestations sont réglées par des prix unitaires et forfaitaires. L'objet du présent accord-cadre consiste à exécuter la maintenance préventive et la maintenance corrective des installations de sécurité dans les…",
+   "departments": [
+    "34"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "50610000",
+    "31625200",
+    "79711000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "01 : Systèmes de sécurité incendie. Systèmes de sécurité incendie",
+    "02 : Alarmes anti-intrusion. Alarmes anti-intrusion"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "5",
+    "196"
+   ]
+  },
+  {
+   "id": "boamp:26-100734",
+   "source": "BOAMP",
+   "source_id": "26-100734",
+   "title": "Entretien des espaces verts de sites communautaires dédiés à l’assainissement collectif 2026-2029",
+   "buyer": "COMMUNAUTE DE COMMUNES VAL D'ILLE-AUBIGNE",
+   "published": "2026-10-16",
+   "deadline": "2026-11-12T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100734",
+   "procedure_id": null,
+   "description": "La présente consultation a pour objet principal l’entretien des espaces verts de sites communautaires dédiés à l’assainissement collectif du territoire de la Communauté de communes Val d’Ille-Aubigné",
+   "departments": [
+    "35"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-100889",
+   "source": "BOAMP",
+   "source_id": "26-100889",
+   "title": "TRAVAUX D’ENTRETIEN DES ARBRES",
+   "buyer": "Ville de Fontenay-sous-Bois",
+   "published": "2026-10-16",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100889",
+   "procedure_id": null,
+   "description": "L’accord-cadre a pour objet les prestations de taille d’élagage, d’entretien, d’abattage, d’essouchage et de gestion des produits de coupe sur le territoire de la ville de Fontenay-sous-Bois et sur le site de Cocherel (77).",
+   "departments": [
+    "94"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77211500"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-100921",
+   "source": "BOAMP",
+   "source_id": "26-100921",
+   "title": "Gardiennage et sécurité des différents sites de l’Agence Aix les Bains Riviera des Alpes",
+   "buyer": "AGENCE AIX-LES-BAINS RIVIERA DES ALPES",
+   "published": "2026-10-16",
+   "deadline": "2026-11-20T10:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100921",
+   "procedure_id": null,
+   "description": "Le présent marché public a pour objet les prestations de gardiennage et de sécurité des différents sites de l’Agence Aix les Bains Riviera des Alpes.",
+   "departments": [
+    "73"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "79710000",
+    "79714000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 92000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "SECURITE INCENDIE ET SECURITE DES BIENS ET DES PERSONNES - CENTRE CULTUREL ET DES CONGRES ANDRE GROSJEAN « 3C »",
+    "EVENEMENTIEL : SURVEILLANCE ET SECURITE DES BIENS ET DES PERSONNES SUR EVENEMENTS / SPECTACLES + ACCOMPAGNEMENT DE PERSONNES"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
    "id": "boamp:26-99680",
    "source": "BOAMP",
    "source_id": "26-99680",
