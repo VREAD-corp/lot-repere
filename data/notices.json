@@ -93360,6 +93360,251 @@
     "espaces-verts"
    ],
    "descriptors": []
+  },
+  {
+   "id": "boamp:26-100254",
+   "source": "BOAMP",
+   "source_id": "26-100254",
+   "title": "Prestations d’entretien des plantes aquatiques à la DTS",
+   "buyer": "VNF - DTS",
+   "published": "2026-10-17",
+   "deadline": "2027-01-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100254",
+   "procedure_id": "4b048f02-5e8a-4fdd-b1bb-2e87af8470ff",
+   "description": "Accord-cadre de prestations d'entretien des plantes aquatiques sur le territoire de la Direction Territoriale de Strasbourg",
+   "departments": [
+    "57",
+    "67",
+    "68",
+    "90"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté",
+    "Grand Est"
+   ],
+   "cpv": [
+    "77312000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1880000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT 1 Réalisation de prestations de faucardage de plantes aquatiques secteurs Canal de la Sarre et étang du Stock à la DTS",
+    "LOT 2 Prestations de faucardage de plantes aquatiques secteurs Canal de Colmar, Canal de la Marne au Rhin, Canal Rhin Rhône Branche Nord, Canal Rhin Rhône…",
+    "LOT 3 Réalisation de prestations d'arrachage de plantes aquatiques à la DTS"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "349",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-100278",
+   "source": "BOAMP",
+   "source_id": "26-100278",
+   "title": "PRESTATION DE NETTOYAGE DE BATIMENTS ET DIVERS EQUIPEMENTS",
+   "buyer": "Ville de Saint Jean de Braye",
+   "published": "2026-10-17",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100278",
+   "procedure_id": "31ef0ec8-402b-4cb9-90a7-32e76c8b6e5f",
+   "description": "",
+   "departments": [
+    "45"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "90911200",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1000000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT N°1",
+    "LOT N°2",
+    "LOT N°3",
+    "LOT N°4",
+    "LOT N°5"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-100350",
+   "source": "BOAMP",
+   "source_id": "26-100350",
+   "title": "Marché réservé d'entretien des espaces verts",
+   "buyer": "COMMUNAUTE DE COMMUNES SEVRE ET LOIRE",
+   "published": "2026-10-17",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100350",
+   "procedure_id": "8f990a60-fb28-4752-bd9e-f948d1e62f0c",
+   "description": "Marché réservé d'entretien des espaces verts Lot 1: Désherbage manuel ou mécanique, débroussaillage trottoirs et bordures, etc. Lot 2: Tonte surfaces, faucardage roseaux, etc.",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Désherbage manuel ou mécanique, débroussaillage trottoirs et bordures, etc.",
+    "Tonte surfaces, faucardage roseaux, etc."
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-100386",
+   "source": "BOAMP",
+   "source_id": "26-100386",
+   "title": "Accord-cadre à bons de commande mono-attributaire pour le gardiennage occasionnel des sites de la communauté d'agglomération ACCM",
+   "buyer": "Communauté d'agglomération ACCM",
+   "published": "2026-10-17",
+   "deadline": "2026-10-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100386",
+   "procedure_id": "d563f229-46b1-4906-94ba-838539c10279",
+   "description": "Prestations ponctuelles de surveillance générale et de gardiennage des sites et des locaux dont la communauté d'agglomération ACCM est propriétaire ou dans lesquels elle exerce ses compétences. Les prestations doivent permettre d'assurer la sécurité, de surveiller ou d'empêcher, le cas échéant, l'accès aux locaux, de prévenir, intervenir et contrôler toute action suspecte lors d'une mission de gardiennage sur un des…",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "79713000",
+    "79714000",
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-91840"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-100446",
+   "source": "BOAMP",
+   "source_id": "26-100446",
+   "title": "Prestation de sécurité incendie, de gardiennage et de sureté pour plusieurs les établissements de l’UGECAM PACA CORSE",
+   "buyer": "UG 12",
+   "published": "2026-10-17",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100446",
+   "procedure_id": "5f0089b4-b63c-40d1-b75a-2782a11bcb07",
+   "description": "Le marché n° 2026.24 concerne « La prestation de sécurité incendie, de gardiennage et de sureté pour les établissements de l’UGECAM PACA CORSE ».",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Le marché n° 2026.24 concerne « La prestation de sécurité incendie, de gardiennage et de sureté pour le Centre Le Coteau ».",
+    "La prestation de sécurité incendie, de gardiennage et de sureté pour le Centre Hélio Marin",
+    "Prestation de sécurité incendie, de gardiennage et de sureté pour le CMRA de Gap"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
   }
  ]
 }
