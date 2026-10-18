@@ -209,7 +209,7 @@ def free_formats(site, release_csv: str, release_ics: str) -> str:
     return f"""<details class="formats"><summary>Autres formats gratuits ▾</summary>
 <ul>
 <li><a href="{site.link('rss.xml')}" data-mesure="free_download">Flux RSS</a> : les nouvelles annonces dans votre lecteur de flux.</li>
-<li><a href="{release_csv}" data-mesure="free_download">Tableau de la semaine (CSV)</a> : publié chaque lundi, s'ouvre dans Excel.</li>
+<li><a href="{release_csv}" data-mesure="free_download">Tableau des avis ouverts (CSV)</a> : mis à jour deux fois par jour, s'ouvre dans Excel.</li>
 <li><a href="{release_ics}" data-mesure="free_download">Calendrier des dates limites (.ics)</a> : Google Agenda, Outlook, Apple Calendrier.</li>
 <li class="muted small">Pour les développeurs : <a href="{site.link('data/ouverts.json')}" data-mesure="free_download">fichier de données ouvertes (JSON)</a>.</li>
 </ul>

@@ -1,6 +1,6 @@
 # Lot Repéré
 
-Open French public tenders in three trades, **nettoyage et propreté des locaux**, **espaces verts** and **sécurité privée**, refreshed twice a day from free official open data and published as a static site with filters, RSS/Atom, JSON and weekly CSV/ICS exports. Paid add-on: a daily e-mail alert per trade, region and keyword (prepaid 3 or 12 months, B2B).
+Open French public tenders in three trades, **nettoyage et propreté des locaux**, **espaces verts** and **sécurité privée**, refreshed twice a day from free official open data and published as a static site with filters, RSS/Atom, JSON and CSV/ICS downloads (`telechargements/lot-repere-ouverts.csv`, `telechargements/lot-repere-echeances.ics`, rebuilt at every update and served by the site). Paid add-on: a daily e-mail alert per trade, region and keyword (prepaid 3 or 12 months, B2B).
 
 **Site:** https://lot-repere.jalonel.com/ (served at the root of the subdomain; `--site-url` / `SITE_URL` default)
 
@@ -48,7 +48,7 @@ Test builds: `SALES_CONFIG=/path/to/sales.json SALES_ALLOW_TEST=1 python -m lotr
 ## Automation (GitHub Actions)
 
 - `update.yml`: 05:40 and 17:40 UTC, and on push — tests, fetch, commit `data/` if changed, build, deploy Pages. Manual run accepts `since=YYYY-MM-DD` to backfill.
-- `weekly-release.yml`: Mondays 06:30 UTC — release `export-YYYY-Www` with the CSV and ICS (never overwritten).
+- `weekly-release.yml`: Mondays 06:30 UTC — release `export-YYYY-Www` with the CSV and ICS (never overwritten; archive only since 2026-10-18: the site serves its own downloads from `telechargements/` and no longer links to GitHub).
 
 ## Development
 

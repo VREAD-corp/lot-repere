@@ -12,16 +12,15 @@ from typing import Iterable
 from urllib.parse import urlparse
 
 from .digest import NATIONAL_THRESHOLD, is_national, render
-from .exporters import ATTRIBUTION, fmt_date, fmt_deadline, to_atom, to_json, to_rss
+from .exporters import ATTRIBUTION, fmt_date, fmt_deadline, to_atom, to_csv, to_ics, to_json, to_rss
 from . import sales as sales_mod
 from . import landing, shop
 from .geo import REGIONS, slugify
 from .model import NICHES, PARIS, Notice, fold
 
-REPO = "VREAD-corp/lot-repere"
-REPO_URL = f"https://github.com/{REPO}"
-RELEASE_CSV = f"{REPO_URL}/releases/latest/download/lot-repere-ouverts.csv"
-RELEASE_ICS = f"{REPO_URL}/releases/latest/download/lot-repere-echeances.ics"
+# Free downloads served by the site itself, rebuilt at every update (open tenders as CSV, deadlines as ICS).
+CSV_FILE = "telechargements/lot-repere-ouverts.csv"
+ICS_FILE = "telechargements/lot-repere-echeances.ics"
 BRAND = landing.BRAND
 STATIC = Path(__file__).resolve().parent.parent / "static"
 # Anonymous, cookieless audience measurement (verbatim copy of octave-checkout gas/web/jalonel/mesure.js).
@@ -197,7 +196,6 @@ class Site:
 <a href="{self.link('mentions-legales/')}">Mentions légales</a>
 <a href="{self.link('confidentialite/')}">Confidentialité</a>
 {f'<a href="{self.link("cgv-pro/")}">CGV</a>' if self.sales.open else ''}
-<a href="{REPO_URL}">Code source</a>
 </nav>
 <p class="jalonel"><a href="{JALONEL_URL}">Une marque Jalonel</a></p>
 </div>
@@ -314,6 +312,9 @@ class Site:
         (self.out / "rss.xml").write_text(to_rss(feed_items, self.now, self.url), encoding="utf-8")
         (self.out / "data").mkdir(exist_ok=True)
         (self.out / "data" / "ouverts.json").write_text(to_json(open_items, self.now, self.url), encoding="utf-8")
+        (self.out / CSV_FILE).parent.mkdir(exist_ok=True)
+        (self.out / CSV_FILE).write_text(to_csv(open_items, self.now), encoding="utf-8")
+        (self.out / ICS_FILE).write_text(to_ics(open_items, self.now, self.url), encoding="utf-8", newline="")
         self.not_found()
         self.sitemap()
 
@@ -364,7 +365,7 @@ class Site:
         dup = sum(1 for t in self.tenders if t.published >= since and t.status != "annule"
                   and t.source == "BOAMP" and any(k.startswith("TED") for k in t.alt_urls))
         body = f"""
-{landing.home_hero(self, n, self.open_counts, self.sample, RELEASE_CSV, RELEASE_ICS, self.sources_note(meta))}
+{landing.home_hero(self, n, self.open_counts, self.sample, self.link(CSV_FILE), self.link(ICS_FILE), self.sources_note(meta))}
 {self.stats(items)}
 {landing.niche_tiles(self, self.open_counts, self.vols)}
 {self.filters(with_niche=True, placeholder="ex. vitrerie, élagage, SSIAP, bionettoyage")}
@@ -397,7 +398,7 @@ class Site:
              "distribution": [
                  {"@type": "DataDownload", "encodingFormat": "application/json",
                   "contentUrl": self.url + "data/ouverts.json"},
-                 {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": RELEASE_CSV},
+                 {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": self.url + CSV_FILE},
              ]},
         ]
         self.write("", self.page(
@@ -577,8 +578,8 @@ class Site:
 <li>Le classement dépend des codes et descripteurs choisis par les acheteurs ; un contrat multiservices peut apparaître dans deux métiers, et quelques avis peu pertinents passer.</li>
 <li>Les informations sont fournies à titre indicatif. Seuls l'avis officiel et le dossier de consultation font foi.</li>
 </ul>
-<h2>Code et données</h2>
-<p>Le code est public sur <a href="{REPO_URL}">GitHub</a>. Les exports CSV et ICS de chaque semaine sont publiés dans les <a href="{REPO_URL}/releases">releases</a>, et la liste du jour dans <a href="{self.link('data/ouverts.json')}">data/ouverts.json</a>.</p>
+<h2>Données</h2>
+<p>Les données sont téléchargeables librement : <a href="{self.link(CSV_FILE)}" data-mesure="free_download">export CSV</a> des appels d'offres ouverts, <a href="{self.link(ICS_FILE)}" data-mesure="free_download">calendrier des dates limites</a> (.ics) et la liste du jour dans <a href="{self.link('data/ouverts.json')}">data/ouverts.json</a>, mis à jour à chaque relevé.</p>
 """
         self.write("methode/", self.page("methode/", "Méthode et sources – Lot Repéré",
                                          "Sources (BOAMP, TED), licences, codes CPV et descripteurs retenus pour le nettoyage, "
@@ -608,7 +609,7 @@ class Site:
 <p>{'La consultation du site ne collecte aucune donnée personnelle : pas de compte, pas de cookie ni de traceur tiers ; la fréquentation et l’usage du site sont seulement mesurés de façon anonyme et agrégée (voir ci-dessous). Une seule exception : le formulaire d’abonnement aux alertes e-mail, qui charge le module de paiement de Stripe et ses cookies quand vous commencez à le remplir, et qui traite les données de la commande (voir plus bas).' if self.sales.open else 'Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie ni de traceur tiers ; seule une mesure anonyme et agrégée de la fréquentation et de l’usage du site est effectuée (voir ci-dessous). Aucun bandeau cookies n’est donc nécessaire.'}</p>
 <ul>
 <li><strong>Hébergement</strong> : GitHub Pages traite des journaux techniques (adresse IP notamment) pour servir le site et le sécuriser, selon la <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement">déclaration de confidentialité de GitHub</a>.</li>
-<li><strong>Téléchargements</strong> : les exports CSV/ICS sont servis par GitHub Releases, qui ne nous communique qu'un nombre total de téléchargements, sans aucune information sur les personnes.</li>
+<li><strong>Téléchargements</strong> : les exports CSV/ICS sont servis par le site (GitHub Pages) ; seul leur nombre total est compté, par la mesure anonyme décrite ci-dessous.</li>
 <li><strong>Annonces</strong> : nous ne reprenons pas les noms ni les coordonnées des personnes de contact figurant dans les avis publics ; seul le nom de l'acheteur public est affiché.</li>
 </ul>
 <h2>Mesure d'audience et de comportement (version du 13 octobre 2026)</h2>
