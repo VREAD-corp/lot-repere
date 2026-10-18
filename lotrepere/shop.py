@@ -330,7 +330,7 @@ def cgv_pro_body(site) -> str:
 <p>L'Abonné peut demander la modification de ses critères en répondant à l'un des e-mails du Service ; la modification est faite dans un délai de 2 jours ouvrés.</p>
 <h2>8. Arrêt des alertes</h2>
 <p>Chaque e-mail comporte un lien permettant d'<strong>arrêter les alertes à tout moment</strong>, puis de les reprendre jusqu'à la fin de la période. L'arrêt à l'initiative de l'Abonné ne donne pas lieu au remboursement de la période restante, sauf dans le cas prévu à l'article 9.</p>
-<h2>9. Disponibilité</h2>
+<h2 id="art-9">9. Disponibilité</h2>
 <p>Le Vendeur met en œuvre les moyens raisonnables pour envoyer les alertes chaque jour. Si, de son fait, aucune alerte ne peut être envoyée pendant plus de 7 jours consécutifs, la période est prolongée d'une durée égale à l'interruption ou, à la demande de l'Abonné, la part du prix correspondant à la période restante lui est remboursée. Les interruptions des sources (BOAMP, TED) ou de la messagerie ne sont pas imputables au Vendeur ; il les signale lorsqu'elles dépassent 7 jours et prolonge alors la période de la même durée.</p>
 <h2>10. Absence de droit de rétractation</h2>
 <p>La vente étant conclue entre professionnels, pour les besoins de l'activité de l'Abonné, le droit de rétractation prévu par le code de la consommation <strong>ne s'applique pas</strong>.</p>

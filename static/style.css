@@ -300,7 +300,7 @@ h3 { font-size: 1.1rem; margin: 0 0 6px; }
 .sticky-cta { display: none; }
 @media (max-width: 759px) {
   .sticky-cta { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 25; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); background: var(--surface); border-top: 1px solid var(--line); box-shadow: 0 -6px 20px rgba(15, 23, 42, .12); transition: transform .2s ease; }
-  .sticky-cta .btn { padding: 9px 16px; }
+  .sticky-cta .btn { padding: 11px 16px; min-height: 44px; }
   .sticky-cta.is-hidden { transform: translateY(110%); }
   body.has-sticky { padding-bottom: 72px; }
 }

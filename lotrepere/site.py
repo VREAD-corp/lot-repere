@@ -197,7 +197,6 @@ class Site:
 <a href="{self.link('confidentialite/')}">Confidentialité</a>
 {f'<a href="{self.link("cgv-pro/")}">CGV</a>' if self.sales.open else ''}
 <a href="{REPO_URL}">Code source</a>
-<a href="{JALONEL_URL}">Autres outils Jalonel</a>
 </nav>
 <p class="jalonel"><a href="{JALONEL_URL}">Une marque Jalonel</a></p>
 </div>

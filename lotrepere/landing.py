@@ -246,7 +246,8 @@ def home_hero(site, n: int, open_counts: dict[str, int], s: Sample, release_csv:
     if site.sales.open:
         cta = (f'<a class="btn btn-lg" href="{site.link("alertes/")}" data-cta>Recevoir les nouveaux avis de ma région chaque matin →</a>'
                f'<p class="price-note">Alertes e-mail dès {e(entry_price(site))} pour 3 mois, payés une fois, '
-               f'sans renouvellement automatique. {VAT_LINE}.</p>')
+               f'sans renouvellement automatique. {VAT_LINE}. Envois interrompus plus de 7 jours de notre fait : '
+               f'période prolongée ou remboursée au prorata (<a href="{site.link("cgv-pro/")}#art-9">CGV, art. 9</a>).</p>')
     else:
         cta = f'<a class="btn btn-lg" href="{site.link("rss.xml")}" data-mesure="free_download">Suivre les nouvelles annonces (flux RSS)</a>'
     counts = ", ".join(f'<a href="{site.link(k + "/")}">{open_counts[k]} en {e(NICHES[k].short)}</a>' for k in NICHES)
@@ -320,8 +321,9 @@ def alerts_top(site, s: Sample, vols: dict[str, Volume], vol_all: Volume) -> str
 <h1>Les appels d'offres nettoyage, espaces verts ou sécurité de votre région, chaque matin</h1>
 <p class="lead">Vers 7&nbsp;h, les avis BOAMP et TED publiés depuis la veille pour vos métiers, vos régions et vos mots-clés. {xp_price(site)} pour 12 mois, soit {xp_price(site, per=12)} par mois, payé une fois, sans renouvellement automatique.</p>
 <div class="cta-block">
-<a class="btn btn-lg" href="#commander-h" data-cta>Recevoir mes alertes, {xp_price(site)} pour 12 mois</a>
-<p class="price-note">ou {e(price(q))} pour 3 mois · réservé aux entreprises immatriculées en France · paiement par carte, facture PDF</p>
+<a class="btn btn-lg" href="#commander-h" data-cta><span>Recevoir mes alertes, {xp_price(site)} pour 12 mois</span></a>
+<p class="price-note">ou {e(price(q))} pour 3 mois · prix nets, {VAT_LINE} · réservé aux entreprises immatriculées en France · paiement par carte, facture PDF</p>
+<p class="price-note">Envois interrompus plus de 7 jours de notre fait : période prolongée ou remboursée au prorata (<a href="{site.link('cgv-pro/')}#art-9">CGV, art. 9</a>). Pas de droit de rétractation entre professionnels (art. 10).</p>
 </div>
 <p class="hero-links"><a href="{site.link()}">Ou consulter gratuitement la liste des annonces →</a></p>
 </div>
