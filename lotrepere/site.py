@@ -82,6 +82,11 @@ def fmt_eur(v: float | None) -> str:
     return f"{v:,.0f}".replace(",", " ") + " € HT (estimation)"
 
 
+
+# Words searchers type (Search Console, 2026-10-19: "gardiennage …", "travaux d entretien des espaces verts"), used in
+# <title> only; page text keeps the niche labels.
+SEO_TERM = {"securite": "gardiennage et sécurité privée", "espaces-verts": "entretien des espaces verts"}
+
 class Site:
     def __init__(self, out: Path, site_url: str, now: datetime, sales: "sales_mod.Sales | None" = None):
         self.sales = sales or sales_mod.load()
@@ -403,9 +408,9 @@ class Site:
              ]},
         ]
         self.write("", self.page(
-            "", "Appels d'offres nettoyage, espaces verts, sécurité privée – liste gratuite",
-            f"{n} appels d'offres publics ouverts en nettoyage de locaux, espaces verts et sécurité privée : "
-            "acheteur, date limite, région, lien vers l'avis BOAMP ou TED. Mis à jour 2 fois par jour, gratuit.",
+            "", "Appels d'offres nettoyage, entretien des espaces verts, gardiennage – liste gratuite",
+            f"{n} appels d'offres publics ouverts en France : nettoyage de locaux, entretien des espaces verts, "
+            "gardiennage et sécurité privée. Acheteur, date limite, région, lien vers l'avis BOAMP ou TED. Mis à jour 2 fois par jour.",
             body, jsonld=jsonld, scripts=True, sticky=True), lastmod=self.content_date(self.tenders))
 
     def niche_pages(self, k: str, items: list[Notice]) -> None:
@@ -443,7 +448,7 @@ class Site:
                                  "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": t.url,
                                                       "name": t.title} for i, t in enumerate(items[:100])]}}
         self.write(f"{k}/", self.page(
-            f"{k}/", f"Appels d'offres {n.short} – marchés publics ouverts (BOAMP, TED)",
+            f"{k}/", f"Appels d'offres {SEO_TERM.get(k, n.short)} en cours – marchés publics (BOAMP, TED)",
             f"{len(items)} appels d'offres publics de {n.label.lower()} ouverts en France : acheteur, date limite, "
             "région, lien vers l'avis officiel. Mis à jour deux fois par jour, gratuit.",
             body, jsonld=jsonld, scripts=True, sticky=True), lastmod=self.content_date(scope))
@@ -476,7 +481,7 @@ class Site:
 """
             rscope = [t for t in scope if is_national(t) or r in t.regions]
             self.write(f"{k}/{slug}/", self.page(
-                f"{k}/{slug}/", f"Appels d'offres {n.short} {r} – marchés publics ouverts",
+                f"{k}/{slug}/", f"Appels d'offres {SEO_TERM.get(k, n.short)} {r} – marchés publics ouverts",
                 f"{plural(len(local), 'appel', 'appels')} d'offres {n.short} {'ouvert' if len(local) <= 1 else 'ouverts'} {where} "
                 "(BOAMP, TED) : acheteur, date limite, lien vers l'avis officiel. Mis à jour deux fois par jour.",
                 # A region with no local notice today is a thin page: kept for visitors, out of the index.
