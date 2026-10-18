@@ -93605,6 +93605,153 @@
    "descriptors": [
     "138"
    ]
+  },
+  {
+   "id": "boamp:26-100514",
+   "source": "BOAMP",
+   "source_id": "26-100514",
+   "title": "Accord-cadre régional interministériel relatif aux prestations de service de sécurité humaine, sécurité incendie, télésurveillance et télévidéosurveillance",
+   "buyer": "SGAR PFRA",
+   "published": "2026-10-18",
+   "deadline": "2026-11-30T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100514",
+   "procedure_id": "11ca8849-71d7-4376-aa6c-78b69bb9e8e0",
+   "description": "Départements de la région Nouvelle-Aquitaine",
+   "departments": [
+    "19",
+    "23",
+    "24",
+    "33",
+    "40",
+    "47",
+    "79",
+    "86",
+    "87"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "79713000",
+    "79714000",
+    "75251110"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 10000000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "415",
+    "331",
+    "332"
+   ]
+  },
+  {
+   "id": "boamp:26-100583",
+   "source": "BOAMP",
+   "source_id": "26-100583",
+   "title": "MARCHE D’ENTRETIEN ET AMENAGEMENT DES ESPACES VERTS DES SERVICES ET ETABLISSEMENTS DE L’ETAT EN CORSE 2027",
+   "buyer": "SGAR PFRA",
+   "published": "2026-10-18",
+   "deadline": "2026-12-11T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100583",
+   "procedure_id": "4d2baca3-b415-458a-bc58-31d0d90639e8",
+   "description": "Prestations d’entretien et d’aménagement des espaces verts des services et établissements de l’Etat en Corse. Relance du lot 2 (sites de haute-Corse) suite à la non-reconduction du lot 2",
+   "departments": [],
+   "regions": [],
+   "cpv": [
+    "77310000",
+    "45112710",
+    "03451000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-100592",
+   "source": "BOAMP",
+   "source_id": "26-100592",
+   "title": "2026-12 Nettoyage des locaux et vitrerie",
+   "buyer": "Ville de Saint-Jean",
+   "published": "2026-10-18",
+   "deadline": "2026-11-16T10:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100592",
+   "procedure_id": "7d494699-a8a6-4adf-b34e-423bf2a029a3",
+   "description": "Nettoyage des locaux communaux (lot 1), vitrerie (lot 2)",
+   "departments": [
+    "31"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "90911200",
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "2026-12-01 Nettoyage des locaux",
+    "2026-12-02 Nettoyage des vitres"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
   }
  ]
 }
