@@ -365,9 +365,7 @@ class Site:
         dup = sum(1 for t in self.tenders if t.published >= since and t.status != "annule"
                   and t.source == "BOAMP" and any(k.startswith("TED") for k in t.alt_urls))
         body = f"""
-{landing.home_hero(self, n, self.open_counts, self.sample, self.link(CSV_FILE), self.link(ICS_FILE), self.sources_note(meta))}
-{self.stats(items)}
-{landing.niche_tiles(self, self.open_counts, self.vols)}
+{landing.home_hero(self, n, self.sources_note(meta))}
 {self.filters(with_niche=True, placeholder="ex. vitrerie, élagage, SSIAP, bionettoyage")}
 
 <section aria-labelledby="liste-titre" id="liste" data-volume="{self.vol_attr(self.vol)}" data-days="{landing.VOLUME_DAYS}"{' data-sales="1"' if self.sales.open else ''}>
@@ -376,6 +374,9 @@ class Site:
 {landing.inline_cta_template(self) if self.sales.open else ''}
 </section>
 
+{self.stats(items)}
+{landing.niche_tiles(self, self.open_counts, self.vols)}
+{landing.home_after_list(self, n, self.open_counts, self.sample, self.link(CSV_FILE), self.link(ICS_FILE))}
 {landing.missed_by_free(self, self.vol, dup)}
 {landing.band(self)}
 {landing.about(self)}

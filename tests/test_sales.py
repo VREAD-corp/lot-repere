@@ -251,3 +251,16 @@ def test_quotes_on_build_has_the_same_extra_fields(tmp_path, monkeypatch):
 def test_vendored_checkout_scripts_match_octave_checkout():
     for f in ("pay.js", "devis.js", "order.js"):
         assert (ROOT / "lotrepere" / "checkout" / f).read_bytes() == (GAS_WEB / f).read_bytes(), f
+
+
+def test_home_first_screen_is_the_tool(tmp_path, monkeypatch):
+    # JALONEL-HUB-02: H1, one sentence and the alerts link with its starting price, then the filters and the list;
+    # counts per trade, the full price note and the e-mail preview come after the list.
+    index = (opened(tmp_path, monkeypatch) / "index.html").read_text()
+    hero, rest = index.split('<section aria-labelledby="filtres-titre"', 1)
+    words = lambda h: [w for w in re.sub(r"<[^>]+>", " ", h).split() if re.search(r"\w", w)]
+    top = hero.split("<h1>", 1)[1]
+    assert len(words(top.split('<p class="hero-alert"')[0])) <= 30 and len(words(top)) <= 42
+    assert 'alertes/" data-cta>' in top and "pour 3 mois" in top
+    after = rest.split('id="liste-titre"', 1)[1]
+    assert 'id="apercu-alertes"' in after and "niche-tiles" in after and "CGV, art. 9" in after

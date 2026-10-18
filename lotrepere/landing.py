@@ -241,8 +241,25 @@ def niche_tiles(site, open_counts: dict[str, int], vols: dict[str, Volume]) -> s
     return f'<ul class="who niche-tiles" aria-label="Les trois métiers suivis">{"".join(tiles)}</ul>'
 
 
-def home_hero(site, n: int, open_counts: dict[str, int], s: Sample, release_csv: str, release_ics: str,
-              sources_note: str) -> str:
+def home_hero(site, n: int, sources_note: str) -> str:
+    """Home first screen: H1, one sentence, a short link to the paid alerts; the filters and the list follow
+    right after it (JALONEL-HUB-02, 2026-10-19: the tool is visible without scrolling on a phone)."""
+    if site.sales.open:
+        cta = (f'<p class="hero-alert"><a href="{site.link("alertes/")}" data-cta>Recevoir les nouveaux avis de ma région chaque matin →</a> '
+               f'<span>dès {e(entry_price(site))} pour 3 mois</span></p>')
+    else:
+        cta = f'<p class="hero-alert"><a href="{site.link("rss.xml")}" data-mesure="free_download">Suivre les nouvelles annonces (flux RSS)</a></p>'
+    return f"""<section class="hero hero-tool" id="hero">
+<h1>Appels d'offres nettoyage, espaces verts et sécurité privée ouverts</h1>
+<p class="lead"><strong>{n}</strong> marchés publics ouverts (BOAMP et TED), en accès libre, mis à jour le {site.updated_label()}.</p>
+{cta}
+{sources_note}
+</section>"""
+
+
+def home_after_list(site, n: int, open_counts: dict[str, int], s: Sample, release_csv: str, release_ics: str) -> str:
+    """Under the list: what used to be in the hero (counts per trade, alerts pitch with prices, e-mail preview,
+    free formats)."""
     if site.sales.open:
         cta = (f'<a class="btn btn-lg" href="{site.link("alertes/")}" data-cta>Recevoir les nouveaux avis de ma région chaque matin →</a>'
                f'<p class="price-note">Alertes e-mail dès {e(entry_price(site))} pour 3 mois, payés une fois, '
@@ -251,15 +268,12 @@ def home_hero(site, n: int, open_counts: dict[str, int], s: Sample, release_csv:
     else:
         cta = f'<a class="btn btn-lg" href="{site.link("rss.xml")}" data-mesure="free_download">Suivre les nouvelles annonces (flux RSS)</a>'
     counts = ", ".join(f'<a href="{site.link(k + "/")}">{open_counts[k]} en {e(NICHES[k].short)}</a>' for k in NICHES)
-    return f"""<section class="hero hero-split" id="hero">
+    return f"""<section class="hero-split after-list" id="apercu-alertes" aria-labelledby="apercu-h">
 <div class="hero-copy">
-<p class="eyebrow">Marchés publics · nettoyage, espaces verts, sécurité privée</p>
-<h1>Appels d'offres nettoyage, espaces verts et sécurité privée ouverts</h1>
-<p class="lead"><strong>{n}</strong> marchés publics en cours en France ({counts}), relevés dans le BOAMP et dans TED, le journal européen des marchés publics. Mis à jour le {site.updated_label()}, deux fois par jour. Gratuit, sans inscription.</p>
+<h2 id="apercu-h">D'où viennent ces annonces</h2>
+<p>{n} marchés publics en cours en France ({counts}), relevés dans le BOAMP et dans TED, le journal européen des marchés publics, deux fois par jour. La liste est gratuite et sans inscription ; les alertes e-mail sont payantes.</p>
 <div class="cta-block">{cta}</div>
-<p class="hero-links"><a href="#liste-titre">Parcourir les {n} annonces ↓</a></p>
 {free_formats(site, release_csv, release_ics)}
-{sources_note}
 </div>
 <div class="hero-visual">{mail_mock(s, site.now, compact=True)}<p class="visual-cap">Aperçu des alertes e-mail, avec de vrais avis récents</p></div>
 </section>"""
