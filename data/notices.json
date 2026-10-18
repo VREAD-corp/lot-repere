@@ -93752,6 +93752,689 @@
    "descriptors": [
     "239"
    ]
+  },
+  {
+   "id": "boamp:26-100779",
+   "source": "BOAMP",
+   "source_id": "26-100779",
+   "title": "NETTOYAGE DE LOCAUX TERTIAIRES, D'HÉBERGEMENT, D'HÔTELLERIE, DE PLONGE ET PRESTATION DE PLONGE AU PROFIT DU GSC DE PHALSBOURG - (PBG) - 3 LOTS.",
+   "buyer": "PLATE-FORME COMMISSARIAT EST",
+   "published": "2026-10-18",
+   "deadline": "2026-11-20T08:30",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100779",
+   "procedure_id": "8cedbe3d-95c8-471c-80a0-698d40c333ad",
+   "description": "3 LOTS - NETTOYAGE DE LOCAUX TERTIAIRES, D'HÉBERGEMENT, D'HÔTELLERIE, DE PLONGE ET PRESTATION DE PLONGE AU PROFIT DU GSC DE PHALSBOURG - (PBG).",
+   "departments": [
+    "57"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT 1 - NETTOYAGE DE LOCAUX TERTIAIRES, D'HÉBERGEMENT, D'HÔTELLERIE, DE PLONGE ET PRESTATION DE PLONGE AU PROFIT DU GSC DE PHALSBOURG - (PBG).",
+    "LOT 2 - NETTOYAGE DE LOCAUX TERTIAIRES, D'HÉBERGEMENT, D'HÔTELLERIE, DE PLONGE ET PRESTATION DE PLONGE AU PROFIT DU GSC DE PHALSBOURG - (PBG).",
+    "LOT 3 - NETTOYAGE DE LOCAUX TERTIAIRES, D'HÉBERGEMENT, D'HÔTELLERIE, DE PLONGE ET PRESTATION DE PLONGE AU PROFIT DU GSC DE PHALSBOURG - (PBG)."
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-100785",
+   "source": "BOAMP",
+   "source_id": "26-100785",
+   "title": "Marché de propreté des piscines Agglocéane de Vernouillet et de Saint-Remy-sur-Avre",
+   "buyer": "CA du Pays de Dreux",
+   "published": "2026-10-18",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100785",
+   "procedure_id": "31b6ce6e-3ac9-4d18-88c8-44a04f258e25",
+   "description": "La présente consultation a pour objet le nettoyage des bassins, de leurs plages et abords, des vestiaires, des sanitaires, des douches, des locaux d'accueil et des locaux administratifs des piscines Aggloceane de Vernouillet et de Saint-Rémy-sur-Avre. Les prestations du marché feront l'objet d'un marché composite conclu : - pour partie sous la forme d'un marché ordinaire à prix global et forfaitaire sur la base de…",
+   "departments": [
+    "27",
+    "28",
+    "45",
+    "78"
+   ],
+   "regions": [
+    "Centre-Val de Loire",
+    "Normandie",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000",
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 500000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "274",
+    "265"
+   ]
+  },
+  {
+   "id": "boamp:26-100816",
+   "source": "BOAMP",
+   "source_id": "26-100816",
+   "title": "Prestations de nettoyage des locaux et des véhicules de transport en commun de la SPL TGL",
+   "buyer": "SPL TRANSPORT DU GRAND LONGWY",
+   "published": "2026-10-18",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100816",
+   "procedure_id": "8d52b0ea-0e95-4e18-97c4-8ce9dbf8f60b",
+   "description": "Nettoyage des locaux et des véhicules de la SPL TGL",
+   "departments": [
+    "54",
+    "57"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90910000",
+    "90911200",
+    "90917000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-100838",
+   "source": "BOAMP",
+   "source_id": "26-100838",
+   "title": "Surveillance des sites du port de Dieppe",
+   "buyer": "Syndicat Mixte Ports de Normandie",
+   "published": "2026-10-18",
+   "deadline": "2026-11-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100838",
+   "procedure_id": "dfb5e932-2d48-419f-a7f6-0c05f9fd5b38",
+   "description": "Consultation lancée par un groupement de commandes. L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction. Le présent accord-cadre a pour objet les prestations de surveillance des sites, bâtiments et installations portuaires sur le port de Dieppe. Il s'agit…",
+   "departments": [
+    "14",
+    "76"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "79714000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 2280000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "331"
+   ]
+  },
+  {
+   "id": "boamp:26-100883",
+   "source": "BOAMP",
+   "source_id": "26-100883",
+   "title": "PRESTATIONS DE NETTOYAGE DES LOCAUX ET DE LA VITRERIE AFFECTES AUX ACTIVITES DE L’EMSE",
+   "buyer": "ECOLE NAL SUP DES MINES DE ST ETIENNE",
+   "published": "2026-10-18",
+   "deadline": "2026-11-28T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100883",
+   "procedure_id": "7df9b687-7b0e-4f63-90a8-0f03eb5aa14d",
+   "description": "Marché de prestations de service de nettoyage des locaux et de la vitrerie de l'EMSE",
+   "departments": [
+    "13",
+    "42"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes",
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90910000",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT N° 1 - Prestations de nettoyage des locaux et de la vitrerie de l’EMSE campus de Saint-Etienne",
+    "LOT N° 2 - Prestations de nettoyage des locaux de l’EMSE campus de Gardanne",
+    "LOT N° 3 - Prestations de nettoyage de la vitrerie de l’EMSE campus de Gardanne"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "363"
+   ]
+  },
+  {
+   "id": "boamp:26-100901",
+   "source": "BOAMP",
+   "source_id": "26-100901",
+   "title": "PRESTATIONS DE SECURITE ET DE GARDIENNAGE POUR LA VILLE DE CLERMONT-FERRAND (RELANCE LOTS N° 01, 02 et 03)",
+   "buyer": "VILLE DE CLERMONT-FERRAND",
+   "published": "2026-10-18",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100901",
+   "procedure_id": "80fef2a5-024b-4151-9a84-e87d6e712fb5",
+   "description": "Relance des lots n° 01, 02 et 03 relatifs à la réalisation de prestations pour assurer la surveillance et le gardiennage de bâtiments, d'équipements ouverts, lors de manifestations événementielles.",
+   "departments": [
+    "63"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "79710000",
+    "79713000",
+    "75250000",
+    "75251110"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Sécurité incendie",
+    "Sécurité évènementielle",
+    "Gardiennage et Surveillance bâtimentaire ou sites ouverts"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-100913",
+   "source": "BOAMP",
+   "source_id": "26-100913",
+   "title": "PRESTATIONS DE SECURITE",
+   "buyer": "Mairie de Niort",
+   "published": "2026-10-18",
+   "deadline": "2026-11-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100913",
+   "procedure_id": "fb171b5e-6bed-40dd-a31d-b4e6a04987d5",
+   "description": "Le présent accord cadre a pour objet la réalisation de prestations de surveillance, rondes de sécurité, gardiennage, levées de doute intrusion, selon les besoins des membres du groupement.",
+   "departments": [
+    "79"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de sécurité",
+    "Prestations de levée de doute suite à alarme intrusion"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-100946",
+   "source": "BOAMP",
+   "source_id": "26-100946",
+   "title": "PRESTATIONS DE NETTOYAGE DES LOCAUX ET VITRERIE AVEC FOURNITURE DE CONSOMMABLES D'HYGIENE",
+   "buyer": "Grand Avignon",
+   "published": "2026-10-18",
+   "deadline": "2026-11-20T23:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100946",
+   "procedure_id": "d38b0358-eb25-46da-855a-053e2ae8f2bf",
+   "description": "L'accord-cadre est \"composite\". Il comprend une partie \"marché ordinaire\" et une partie \"accord-cadre à bons de commande\". Chaque lot fera l'objet d'une attribution séparée. PRESTATION DE NETTOYAGE DES LOCAUX ET VITRERIE AVEC FOURNITURE DE CONSOMMABLES D'HYGIENE POUR LES SITES DU GRAND AVIGNON : Siège du Grand Avignon - Maison des Syndicats du Grand Avignon - Living Lab - Durançole A B C - CREATIVA Administratif…",
+   "departments": [
+    "84"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90911200",
+    "90911300",
+    "33760000",
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Siège du Grand Avignon - Maison des Syndicats du Grand Avignon - Living Lab - Durançole A B C - CREATIVA Administratif - Pierre Thomas - Centre technique…",
+    "Conservatoire de Musique et Théâtre - Conservatoire de Danse - Auditorium du Pontet",
+    "Centre Technique - Déchèterie de Courtine - Déchèterie de Velleron - Quai à déchets du Pontet"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "153",
+    "239",
+    "363"
+   ]
+  },
+  {
+   "id": "boamp:26-100955",
+   "source": "BOAMP",
+   "source_id": "26-100955",
+   "title": "Maintenance des dispositifs Anti intrusion, Contrôle d'accès et vidéo des bâtiments communaux et Télésurveillance des Bâtiments Communaux avec interventions sur sites",
+   "buyer": "MAIRIE DE BLAGNAC",
+   "published": "2026-10-18",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100955",
+   "procedure_id": "ed07ee5b-06ab-496b-a14b-5ce33fc0787b",
+   "description": "Le présent marché est un accord-cadre à bons de commande, mono-attributaire par lot, relatif à la sûreté des bâtiments communaux de la Ville de Blagnac : anti-intrusion, contrôle d'accès, vidéosurveillance bâtimentaire et télésurveillance. Il porte sur les sites communaux listés à l'Annexe A1 : bâtiments administratifs, groupes scolaires, établissements de petite enfance, équipements sportifs et culturels, Hôtel de…",
+   "departments": [
+    "31"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "79711000",
+    "79714000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1400000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Anti-intrusion, contrôle d'accès et vidéosurveillance bâtimentaire",
+    "Télésurveillance"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "331",
+    "415"
+   ]
+  },
+  {
+   "id": "boamp:26-101003",
+   "source": "BOAMP",
+   "source_id": "26-101003",
+   "title": "PRESTATIONS D’ENTRETIEN DES PARTIES COMMUNES POUR LES IMMEUBLES DES DOMAINES",
+   "buyer": "Hospices Civils de Lyon Etablissement support du GHT Val Rhône Centre",
+   "published": "2026-10-18",
+   "deadline": "2026-11-18T12:30",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101003",
+   "procedure_id": "390b9b87-16b7-46e2-a7b7-56df0b27c737",
+   "description": "",
+   "departments": [
+    "69"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 830000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-101024",
+   "source": "BOAMP",
+   "source_id": "26-101024",
+   "title": "LUTTE CONTRE LES NUISIBLESET MISSIONS DE SALUBRITÉ",
+   "buyer": "Ville de Courbevoie",
+   "published": "2026-10-18",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101024",
+   "procedure_id": "0876bd3a-37a4-4928-99d1-a976659a3980",
+   "description": "Le marché a pour objet la mission de lutte contre les nuisibles (insectes, arthropodes, rongeurs et autres animaux nuisibles) ainsi que certaines missions de salubrité pour l'ensemble du territoire communal, aussi bien à l'intérieur qu'à l'extérieur des bâtiments, sur le domaine public ou privé, y compris dans les parcs et jardins publics",
+   "departments": [
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90923000",
+    "90922000",
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 420000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de lutte contre les nuisibles (rongeurs, arthropodes et animaux dits nuisibles)",
+    "Traitement avec chasse animale (furets et chiens)",
+    "3 - Missions de désinfection de locaux, débarras et nettoyage"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "274",
+    "89"
+   ]
+  },
+  {
+   "id": "boamp:26-101025",
+   "source": "BOAMP",
+   "source_id": "26-101025",
+   "title": "Prestations d'éco-pâturage des délaissés routiers et autres espaces naturels du patrimoine départemental de la Mayenne",
+   "buyer": "Conseil Départemental de la Mayenne",
+   "published": "2026-10-18",
+   "deadline": "2026-11-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101025",
+   "procedure_id": "d8e529ac-3fea-4b33-b8c5-10b2d9f7e147",
+   "description": "La procédure de passation utilisée est l'appel d'offres ouvert. Elle est soumise aux dispositions des articles L. 2124-2, R. 2124-2 1° et R. 2161-2 à R. 2161-5 du Code de la commande publique. L'accord-cadre avec maximum est passé en application des articles L2125-1 1°, R. 2162-1 à R. 2162-6, R. 2162-13 et R. 2162-14 du Code de la commande publique. Il donnera lieu à l'émission de bons de commande. Les prestations…",
+   "departments": [
+    "53"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 212000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Secteur Nord",
+    "Secteur Centre-Ouest",
+    "Secteur Centre-Est",
+    "Secteur Sud"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-101032",
+   "source": "BOAMP",
+   "source_id": "26-101032",
+   "title": "26A36F Entretien des espaces verts et des accotements de voirie sur le territoire de la communauté d'agglomération ARCHE AGGLO - 9 LOTS",
+   "buyer": "ARCHE AGGLO",
+   "published": "2026-10-18",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101032",
+   "procedure_id": "e882f47d-9dfa-46d8-afd0-f242cb4c16c2",
+   "description": "La consultation a pour objet : - L'entretien des espaces verts, des surfaces non plantées ainsi que les voiries des ZAE, des ouvrages d'eau potable (réservoirs, captages) et des ouvrages d'assainissement (stations d'épuration) sur le territoire d'ARCHE Agglo (élagage, abatage, taille, broyage, tonte, arrosage, …), - Le débroussaillage mécanique à l'épareuse concernant : o l'entretien des espaces verts, des surfaces…",
+   "departments": [
+    "07"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77310000",
+    "77340000",
+    "90610000",
+    "77314000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien et gestion des espaces verts périmètre Ardèche",
+    "Entretien et gestion des espaces verts périmètre Hermitage",
+    "Entretien et gestion des espaces verts périmètre Herbasse",
+    "Entretien mécanique des espaces verts, cours d'eau, voirie sur le territoire de l'Ardèche : épareuse, broyage, entretien, lamier, broyage de branches, cureuse…",
+    "Entretien mécanique des espaces verts, cours d'eau, voirie sur le territoire de l'Hermitage : épareuse, broyage, entretien, lamier, broyage de branches…",
+    "Entretien mécanique des espaces verts, cours d'eau, voirie sur le territoire de l'Herbasse : épareuse, broyage, entretien, lamier, broyage de branches…",
+    "Entretien des cours d'eau sur le territoire d'ARCHE Agglo (travaux forestiers)",
+    "LOT RESERVE - Entretien des sentiers de randonnées, des sites sports nature, des ENS, des ouvrages d'eau potable et d'assainissement et des aires de collecte…",
+    "LOT RESERVE - Entretien manuel de certains cours d'eau (inaccessibles à l'épareuse) et ouvrages hydrauliques sur tout le territoire d'ARCHE Agglo"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-101048",
+   "source": "BOAMP",
+   "source_id": "26-101048",
+   "title": "PRESTATIONS DE NETTOYAGE MUSEE DES PÊCHERIES ET BATIMENTS COMMUNAUX",
+   "buyer": "Ville de Fécamp",
+   "published": "2026-10-18",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101048",
+   "procedure_id": "118d383e-d887-427d-94a6-5ba5209674c9",
+   "description": "Le présent accord-cadre a pour objet l'exécution de prestations de nettoyage pour le Musée des Pêcheries principalement et occasionnellement pour d'autres bâtiments communaux sur le territoire de la Ville de Fécamp",
+   "departments": [
+    "76"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 300000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Musée des Pêcheries",
+    "Autres bâtiments communaux"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
   }
  ]
 }
