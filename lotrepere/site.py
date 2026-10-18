@@ -131,6 +131,7 @@ class Site:
         if sitemap:
             self.pages.append((path, lastmod or TEMPLATE_DATE))
 
+    # Legal notice and privacy pages are near-identical across the Jalonel subdomains: noindex, follow (2026-10-18).
     def page(self, path: str, title: str, description: str, body: str, *,
              jsonld: dict | list | None = None, scripts: bool = False, noindex: bool | str = False,
              csp: str = "", body_scripts: str = "", sticky: bool = False) -> str:
@@ -599,7 +600,8 @@ class Site:
 <p>Les informations publiées ne constituent pas un conseil juridique. Vérifiez toujours l'avis officiel et le dossier de consultation avant de répondre à un marché.</p>
 """
         self.write("mentions-legales/", self.page("mentions-legales/", "Mentions légales – Lot Repéré",
-                                                  "Éditeur, hébergeur et sources de Lot Repéré.", mentions))
+                                                  "Éditeur, hébergeur et sources de Lot Repéré.", mentions,
+                                                  noindex="noindex, follow"), sitemap=False)
         exp = self.sales.products
         privacy = f"""
 <h1>Confidentialité</h1>
@@ -626,7 +628,8 @@ class Site:
             "confidentialite/", "Confidentialité – Lot Repéré",
             "Aucun cookie ni traceur à la consultation ; mesure d'audience anonyme et agrégée ; données traitées seulement "
             "pour l'abonnement aux alertes." if self.sales.open else
-            "Aucune donnée personnelle collectée, aucun cookie ni traceur ; mesure d'audience anonyme et agrégée.", privacy))
+            "Aucune donnée personnelle collectée, aucun cookie ni traceur ; mesure d'audience anonyme et agrégée.", privacy,
+            noindex="noindex, follow"), sitemap=False)
         if self.sales.open:
             self.write("cgv-pro/", self.page(
                 "cgv-pro/", "Conditions générales de vente aux professionnels – Lot Repéré",
