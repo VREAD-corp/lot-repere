@@ -15,11 +15,12 @@ from lotrepere.site import CRO_API, CRO_SITE, Site
 
 ROOT = Path(__file__).resolve().parent.parent
 FIX = Path(__file__).parent / "fixtures"
-GAS_WEB = ROOT.parent / "octave-checkout" / "gas" / "web"
+# Jalonel copies of the tracking scripts (no reading-site host or prefix).
+GAS_WEB = ROOT.parent / "octave-checkout" / "gas" / "web" / "jalonel"
 NOW = datetime(2026, 10, 13, 10, 0, tzinfo=timezone.utc)
 SITE = "https://lot-repere.jalonel.com/"
 TAG = re.compile(r'<script src="/cro\.js" data-site="([^"]+)" data-api="([^"]+)" '
-                 r'data-hosts="lot-repere\.jalonel\.com outils\.vread\.fr" data-cta="\[data-cta\]" defer></script>')
+                 r'data-hosts="lot-repere\.jalonel\.com" data-cta="\[data-cta\]" defer></script>')
 
 
 @pytest.mark.skipif(not shutil.which("node"), reason="node not installed")
@@ -33,13 +34,13 @@ def test_cro_js_behaviour():
 def test_tracking_files_match_octave_checkout():
     for f in ("cro.js", "mesure.js"):
         assert (ROOT / "lotrepere" / f).read_bytes() == (GAS_WEB / f).read_bytes(), f
-    assert (Path(__file__).with_name("cro.check.mjs")).read_bytes() == (GAS_WEB / "cro.check.mjs").read_bytes()
+    # tests/cro.check.mjs: gas/web/cro.check.mjs adapted to the Jalonel cro.js (no default host).
 
 
 def test_mesure_counts_this_site_under_its_own_id():
     js = (ROOT / "lotrepere" / "mesure.js").read_text(encoding="utf-8")
-    # on lot-repere.jalonel.com the host maps to the site id; on outils.vread.fr/lot-repere/ the path prefix does
-    assert CRO_API in js and "'lot-repere':'lot-repere'" in js and "lot-" in re.search(r"site:J\|\|\(/\^\(([^)]*)\)/", js).group(1)
+    # on lot-repere.jalonel.com the host maps to the site id; any other host is not counted
+    assert CRO_API in js and "'lot-repere':'lot-repere'" in js and "site:J," in js and "vread" not in js
     assert "octave_notrack" in js and "v:2" in js
     assert CRO_SITE == "lot-repere"
 

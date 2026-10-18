@@ -1,4 +1,4 @@
-/* Lot Repéré: conversion goals for cro.js (octave-checkout gas/web/cro.js, loaded just before).
+/* Lot Repéré: conversion goals for cro.js (octave-checkout gas/web/jalonel/cro.js, loaded just before).
  * Only successes the site already detects: the order form submitted (#octave-pay, same as mesure.js
  * checkout_start), a free format downloaded (data-mesure="free_download") and, on /alertes/commande.html,
  * the subscription confirmed (order.js sets data-fulfilled="1" on #order-status). A goal only counts for an

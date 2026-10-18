@@ -21,7 +21,7 @@ from .geo import REGIONS, slugify
 from .model import NICHES, PARIS, Notice
 from .sales import PLAN_ARMS, eur_short
 
-CONTACT = "octave@vread.fr"
+CONTACT = "contact@jalonel.com"
 BRAND = "Lot Repéré"
 VOLUME_DAYS = 30
 VAT_LINE = "TVA non applicable, art. 293 B du CGI"

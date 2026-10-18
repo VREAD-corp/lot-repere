@@ -41,7 +41,7 @@ No automatic renewal. Terms: `/cgv-pro/`, version `cgv-pro-lot-repere-2026-10-13
 
 **A/B price test** (analysis V4-30 §3): experiment `lot-repere-prix12`, variants a/b, configured in `static/xp-config.js` (`window.OCTAVE_XP`, loaded before `cro.js`), drawn once per tab (sessionStorage), exposure counted on `/alertes/`. `lotrepere/checkout/xp-price.js` switches the 12-month radio to `lot-repere-12m-b` and the shown prices to 249 € in arm b. Outside `/alertes/` the copy only quotes « dès 49 € pour 3 mois », identical in both arms. Force an arm with `?xp_lot-repere-prix12=b`. Both arms stay under the cheapest paid competitor listed in the analysis (marchesonline, from 25 €/month).
 
-`lotrepere/checkout/pay.js`, `devis.js`, `order.js`, `lotrepere/mesure.js`, `lotrepere/cro.js` and `tests/cro.check.mjs` are verbatim copies of `octave-checkout/gas/web/` (checked by the tests when that repo sits next to this one). Tracking site id: `lot-repere`. `octave_notrack=1` in the URL disables counting for tests.
+`lotrepere/checkout/pay.js`, `devis.js`, `order.js`, `lotrepere/mesure.js` and `lotrepere/cro.js` are verbatim copies of `octave-checkout/gas/web/jalonel/` (the Jalonel tracking copies), `pay.js`, `devis.js` and `order.js` of `octave-checkout/gas/web/`, and `tests/cro.check.mjs` is `gas/web/cro.check.mjs` adapted to the Jalonel host (checked by the tests when that repo sits next to this one). Tracking site id: `lot-repere`. `octave_notrack=1` in the URL disables counting for tests.
 
 Test builds: `SALES_CONFIG=/path/to/sales.json SALES_ALLOW_TEST=1 python -m lotrepere --site-url http://host/ build --out out` accepts a non-Apps-Script endpoint ending in `/exec` and a `pk_test_` key.
 
