@@ -94437,6 +94437,50 @@
    ]
   },
   {
+   "id": "boamp:26-101303",
+   "source": "BOAMP",
+   "source_id": "26-101303",
+   "title": "Entretien des espaces verts",
+   "buyer": "SAEML Cyclea",
+   "published": "2026-10-19",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101303",
+   "procedure_id": null,
+   "description": "Le présent marché a pour objet la réalisation de prestations d'entretien des espaces verts des sites exploités par la SAEML CYCLEA",
+   "departments": [
+    "974"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 100000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
    "id": "ted:718943-2026",
    "source": "TED",
    "source_id": "718943-2026",
