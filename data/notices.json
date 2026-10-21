@@ -96684,6 +96684,1184 @@
     "securite"
    ],
    "descriptors": []
+  },
+  {
+   "id": "boamp:26-101475",
+   "source": "BOAMP",
+   "source_id": "26-101475",
+   "title": "Entretien des espaces verts",
+   "buyer": "FLERS AGGLO",
+   "published": "2026-10-21",
+   "deadline": "2026-11-03T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101475",
+   "procedure_id": "bb7d9a5a-9d54-420c-81ec-352f1cef5d01",
+   "description": "L'accord-cadre est passé en application des articles L2113-6 et 7 du Code de la Commande Publique dans le cadre du groupement d'achat de fournitures courantes et services composé de la Ville de Flers, de la Communauté d'Agglomération Flers Agglo et de Normand'Innov; dont Flers-Agglo assure la coordination",
+   "departments": [
+    "61"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 3180000.0,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-95098"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-101529",
+   "source": "BOAMP",
+   "source_id": "26-101529",
+   "title": "Prestation de nettoyage des locaux de la commune de Malaunay",
+   "buyer": "Commune de Malaunay",
+   "published": "2026-10-21",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101529",
+   "procedure_id": "3fe5eb20-dad0-413a-a8b3-b10d7d497e14",
+   "description": "* La présente consultation relève d'un marché de services et a pour objet les prestations de nettoyage des locaux de la ville. * La consultation fait l'objet d'un lot unique. * Le marché est simple, à prix global et forfaitaire. * Le marché est conclu pour une durée d'un an à compter du 1er mars 2027. Il est reconductible trois fois",
+   "departments": [
+    "76"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "90911200",
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-101562",
+   "source": "BOAMP",
+   "source_id": "26-101562",
+   "title": "PRESTATIONS DE NETTOYAGE DES LOCAUX (LOTS 3 A 8)",
+   "buyer": "Communauté Urbaine de Dunkerque",
+   "published": "2026-10-21",
+   "deadline": "2026-10-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101562",
+   "procedure_id": "1fb18149-a86c-4231-af07-fb2100c8d65f",
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90900000",
+    "90919200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-77788",
+    "boamp:26-94672",
+    "boamp:26-97310"
+   ],
+   "summary": "",
+   "lots": [
+    "Batiments scolaires (marché réservé aux structures d’insertion par l’activité économique - art. L.2113-13 du CCP",
+    "Prestations de nettoyage (marché réservé aux structures d’insertion par l’activité économique – art.L.2113-13 du CCP)",
+    "Prestations de nettoyage (marché réservé aux EA, ESAT et structures équivalents – art.L.2113-12 du CCP)",
+    "Bâtiment sportifs du secteur est du territoire",
+    "Bâtiment sportifs du secteur ouest du territoire",
+    "Aires des gens du voyage"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-101595",
+   "source": "BOAMP",
+   "source_id": "26-101595",
+   "title": "Gardiennage et surveillance d'équipements, d'installations et de personnes lors de manifestations et mission de médiation sur autre sites sensibles pour la Ville d'Olivet",
+   "buyer": "Mairie d'Olivet - Service Commande Publique",
+   "published": "2026-10-21",
+   "deadline": "2026-11-19T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101595",
+   "procedure_id": "34977677-fe2f-4698-9e91-e8973fb43733",
+   "description": "Les missions à assurer dans le cadre des prestations demandées sont les suivantes : - La surveillance et le gardiennage de sites ou de locaux ; - La surveillance et le gardiennage de matériel et d'équipement ; - La surveillance et la sécurisation du bon déroulement de la manifestation ; - La sécurité et le contrôle des personnes lors des manifestations ; - La sécurité incendie et d'assistance à personne ; - La…",
+   "departments": [
+    "45"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 240000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-101602",
+   "source": "BOAMP",
+   "source_id": "26-101602",
+   "title": "CENTRALE D'ACHAT - Prestation d'entretien des locaux et la vitrerie pour Dijon Métropole, la Ville de Dijon et son CCAS et les entités de la Centrale d'Achat",
+   "buyer": "Centrale d'achat Dijon Métropole",
+   "published": "2026-10-21",
+   "deadline": "2026-11-19T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101602",
+   "procedure_id": "d706f380-0225-4f3e-8b87-4a1d1c25d469",
+   "description": "L'accord-cadre concerne les prestations de nettoyage et d'entretien régulier de locaux ainsi que des prestations de nettoyage des vitres dans divers locaux de la Ville de Dijon, du CCAS, de Dijon Métropole et entités Centrale d'Achat, répartis sur plusieurs sites",
+   "departments": [
+    "21"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "90911200",
+    "90919200",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Sites tertiaires Dijon Métropole et entités Centrale d'Achat - Lot Réservé aux Structures d'Insertion par l'Activité Economique",
+    "Lot n°2 - Sites tertiaires Ville de Dijon, son CCAS et entités Centrale d'Achat - Lot Réservé aux Structures d'Insertion par l'Activité Economique",
+    "Lot n°3 - Sites culturels Ville de Dijon et entités de la Centrale d'Achat - Lot Réservé aux Structures d'Insertion par l'Activité Economique",
+    "Lot n°4 - Sites techniques Ville de Dijon, Dijon métropole et entités de la Centrale d'Achat - Lot Réservé aux Structures d'Insertion par l'Activité Economique",
+    "Lot n°6 - Autres sites Ville de Dijon et Dijon métropole - Lot Réservé aux Etablissement et Services d'Aides par le Travail",
+    "Lot n°7 - Cité Internationale de la Gastronomie et du Vin - Lot Réservé aux Etablissement et Services d'Aides par le Travail",
+    "Lot n°8 - Les Halles (Ville de Dijon) - Lot Réservé aux Etablissement et Services d'Aides par le Travail",
+    "Lot n°9 - Vitrerie Entités de la Centrale d'Achat",
+    "Lot n°10 - Prestations sur sites non inclus dans les lots principaux, VD, DM, CCAS et entités Centrale d'Achat"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-101642",
+   "source": "BOAMP",
+   "source_id": "26-101642",
+   "title": "Nettoyage des bâtiments communaux de la ville de FORBACH.",
+   "buyer": "COMMUNE DE FORBACH",
+   "published": "2026-10-21",
+   "deadline": "2026-11-20T11:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101642",
+   "procedure_id": "ad2c993f-9583-4c5d-85c9-1b0f66f906d1",
+   "description": "Nettoyage de batiments communaux",
+   "departments": [
+    "57",
+    "67",
+    "75"
+   ],
+   "regions": [
+    "Grand Est",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 700000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Ecoles élémentaires et gymnases attenants écoles élémentaires et gymnases attenants",
+    "Les infrastructures sportives",
+    "Nettoyage des bâtiments Associatifs et Socio Culturels",
+    "Nettoyage des Centres sociaux",
+    "Prestation de nettoyage de la vitrerie des écoles élémentaires et autres bâtiments"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-101658",
+   "source": "BOAMP",
+   "source_id": "26-101658",
+   "title": "Marché d'entretien des espaces verts pour l'ensemble du patrimoine de CANTAL HABITAT",
+   "buyer": "CANTAL HABITAT - Office Public de l'Habitat du Cantal",
+   "published": "2026-10-21",
+   "deadline": "2026-11-20T10:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101658",
+   "procedure_id": "d2e8fe05-7447-46db-8935-b33ccac87e48",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires et forfaitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction. Les montants estimatifs sont indicatifs et comprennent les options (prestations similaires et reconductions). Marché d'entretien des…",
+   "departments": [
+    "15"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1140000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT N°01",
+    "LOT N°02",
+    "LOT N°03"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-101664",
+   "source": "BOAMP",
+   "source_id": "26-101664",
+   "title": "ACCORD CADRE N°26078-S-AC DE PRESTATIONS DE PROPRETE, HYGIENE POUR LES SITES DU MUSEUM NATIONAL D'HISTOIRE NATURELLE.",
+   "buyer": "Museum National d'Histoire Naturelle",
+   "published": "2026-10-21",
+   "deadline": "2026-11-24T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101664",
+   "procedure_id": "f1c397fe-8df6-4bf7-b42b-3c92b47fbccb",
+   "description": "ACCORD CADRE N°26078-S-AC DE PRESTATIONS DE PROPRETE, HYGIENE POUR LES SITES?: GRAND SITE DU JARDIN DES PLANTES, SITE DE BRUNOY - CHEVRELOUP-LISSES, MUSEE DE L'HOMME, SITE DE LA HAUTE TOUCHE, SITE DE VAL RAHMEH A MENTON, SITE DE CONCARNEAU, SITE DE DINARD POUR LE COMPTE DU MUSEUM NATIONAL D'HISTOIRE NATURELLE.",
+   "departments": [
+    "06",
+    "29",
+    "36",
+    "75",
+    "78",
+    "91"
+   ],
+   "regions": [
+    "Bretagne",
+    "Centre-Val de Loire",
+    "Provence-Alpes-Côte d'Azur",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de propreté et hygiène du Grand Site du Jardin des Plantes et des sites de Brunoy, Chèvreloup et Lisses",
+    "Prestations de propreté et hygiène des locaux du Musée de l'Homme",
+    "Prestations de propreté et hygiène du site de la Réserve Zoologique de la Haute-Touche",
+    "Prestations de propreté et hygiène du site Val Rahmeh à Menton",
+    "Prestations de propreté et hygiène du site de Concarneau",
+    "Prestations de propreté et hygiène du site de Dinard"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-101765",
+   "source": "BOAMP",
+   "source_id": "26-101765",
+   "title": "ENTRETIEN DES ESPACES VERTS ET D’ELAGAGE DES CENTRES DE LA SPL AFPAR",
+   "buyer": "SPL AFPAR (974)",
+   "published": "2026-10-21",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101765",
+   "procedure_id": "1438fe69-a03c-4617-8646-6c4b15569149",
+   "description": "MARCHE D'ENTRETIEN DES ESPACES VERTS ET D'ELAGAGE DES CENTRES DE LA SPL AFPAR",
+   "departments": [
+    "974"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "77310000",
+    "77211500"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Zone NORD (SIEGE - CFPA DE SAINT FRANCOIS - CENTRE DE LA JAMAIQUE)",
+    "Zone EST (CFPA SAINT-ANDRE)",
+    "Zone OUEST (CFPA SAINT-PAUL)",
+    "TRAVAUX D'ENTRETIEN, D'ELAGAGE, D'ABATTAGE ET DE DESSOUCHAGE DES ARBRES SUR L'ENSEMBLE DES SITES DE L'AFPAR"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-101766",
+   "source": "BOAMP",
+   "source_id": "26-101766",
+   "title": "ACHAT DE PRESTATIONS DE SERVICES POUR LE NETTOYAGE DES LOCAUX",
+   "buyer": "SPL AFPAR (974)",
+   "published": "2026-10-21",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101766",
+   "procedure_id": "d8ff6d9b-bf40-46b0-a0ed-c36c3249cedc",
+   "description": "Le présent marché a pour objet les prestations de nettoyage des locaux de l'AFPAR",
+   "departments": [
+    "974"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Zone NORD (SIEGE - CFPA DE SAINT FRANCOIS - CENTRE DE LA JAMAIQUE)",
+    "Zone EST (CFPA SAINT-ANDRE)",
+    "Zone OUEST (CFPA SAINT-PAUL)",
+    "Zone SUD (CFPA SAINT-PIERRE)"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-101910",
+   "source": "BOAMP",
+   "source_id": "26-101910",
+   "title": "PRESTATIONS DE NETTOYAGE ET D’ENTRETIEN DES TOITURES DES BATIMENTS COMMUNAUX",
+   "buyer": "Commune de Fresnes",
+   "published": "2026-10-21",
+   "deadline": "2026-11-10T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101910",
+   "procedure_id": "863a32b4-c5b8-4e81-9fc7-35978b897ed1",
+   "description": "",
+   "departments": [
+    "94"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911200",
+    "90400000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-91422"
+   ],
+   "summary": "",
+   "lots": [
+    "nettoyage et entretien des toitures plates terrasses",
+    "nettoyage et entretien des toitures pentues"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "33"
+   ]
+  },
+  {
+   "id": "boamp:26-101949",
+   "source": "BOAMP",
+   "source_id": "26-101949",
+   "title": "MISSIONS DE SUIVI DE LA QUALITÉ DE L'EAU ET DE FAUCARDAGE DES DIFFÉRENTS PLANS D'EAU DU PAARC DES RIVES DE L'AA ET DE LA COLME",
+   "buyer": "COMMUNE DE GRAVELINES",
+   "published": "2026-10-21",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101949",
+   "procedure_id": "66d85ab5-e484-4748-976b-c4575db3ee89",
+   "description": "Le présent marché a pour objet d'assurer les missions de suivi de la qualité de l'eau et de faucardage des différents plans d'eau au PAarc des Rives de l'Aa. D'une part, le suivi de la qualité de l'eau a pour objet de s’assurer de la bonne qualité de cette dernière. Celle-ci devra répondre aux normes physiques, chimiques et microbiologiques en vigueur. D'autre part, les missions de faucardage ont pour objectif la…",
+   "departments": [
+    "59",
+    "62"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "71620000",
+    "77000000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "MISSIONS DE SUIVI DE LA QUALITÉ DE L'EAU",
+    "MISSIONS DE FAUCARDAGE DES DIFFÉRENTS PLANS D'EAU"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "8",
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-102275",
+   "source": "BOAMP",
+   "source_id": "26-102275",
+   "title": "ENTRETIEN ET NETTOYAGE DES LOCAUX",
+   "buyer": "SAEML METZ TECHNO'PÔLES",
+   "published": "2026-10-21",
+   "deadline": "2026-11-30T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102275",
+   "procedure_id": null,
+   "description": "La consultation porte sur les prestations de nettoyage et entretien des locaux de la SAEML METZ TECHNO'PÔLES",
+   "departments": [
+    "54",
+    "57"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90919200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT 1 - CESCOM",
+    "LOT 2 - MDE",
+    "LOT 3 - TELIS"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "ted:726453-2026",
+   "source": "TED",
+   "source_id": "726453-2026",
+   "title": "Marché d'entretien des espaces verts pour l'ensemble du patrimoine de CANTAL HABITAT",
+   "buyer": "CANTAL HABITAT - Office Public de l'Habitat du Cantal",
+   "published": "2026-10-21",
+   "deadline": "2026-11-20T10:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/726453-2026",
+   "procedure_id": "d2e8fe05-7447-46db-8935-b33ccac87e48",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires et forfaitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction. Les montants estimatifs sont indicatifs et comprennent les options (prestations similaires et reconductions). Marché d'entretien des…",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1140000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT N°01",
+    "LOT N°02",
+    "LOT N°03"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:726541-2026",
+   "source": "TED",
+   "source_id": "726541-2026",
+   "title": "Gardiennage et surveillance d'équipements, d'installations et de personnes lors de manifestations et mission de médiation sur autre sites sensibles pour la Ville d'Olivet",
+   "buyer": "Mairie d'Olivet - Service Commande Publique",
+   "published": "2026-10-21",
+   "deadline": "2026-11-19T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/726541-2026",
+   "procedure_id": "34977677-fe2f-4698-9e91-e8973fb43733",
+   "description": "Les missions à assurer dans le cadre des prestations demandées sont les suivantes : - La surveillance et le gardiennage de sites ou de locaux ; - La surveillance et le gardiennage de matériel et d'équipement ; - La surveillance et la sécurisation du bon déroulement de la manifestation ; - La sécurité et le contrôle des personnes lors des manifestations ; - La sécurité incendie et d'assistance à personne ; - La…",
+   "departments": [],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 240000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:726662-2026",
+   "source": "TED",
+   "source_id": "726662-2026",
+   "title": "Prestations de surveillance et de gardiennage sur les quartiers prioritaires de la ville de Troyes dans le cadre de l'opération \"tranquillité bailleurs\" pour le compte de TROYES AUBE HABITAT et de MON LOGIS - GROUPE ACTION LOGEMENT",
+   "buyer": "TROYES AUBE HABITAT, MON LOGIS – GROUPE ACTION LOGEMENT",
+   "published": "2026-10-21",
+   "deadline": "2026-11-16T18:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/726662-2026",
+   "procedure_id": "8cf0b0e9-6908-4dc6-a039-a0efee9f4f48",
+   "description": "Prestations de surveillance et de gardiennage sur les quartiers prioritaires de la ville de Troyes dans le cadre de l'opération \"tranquillité bailleurs\".",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:726783-2026",
+   "source": "TED",
+   "source_id": "726783-2026",
+   "title": "PRESTATIONS DE NETTOYAGE DES LOCAUX (LOTS 3 A 8)",
+   "buyer": "Communauté Urbaine de Dunkerque",
+   "published": "2026-10-21",
+   "deadline": "2026-10-08T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/726783-2026",
+   "procedure_id": "1fb18149-a86c-4231-af07-fb2100c8d65f",
+   "description": "PRESTATIONS DE NETTOYAGE DES LOCAUX (LOTS 3 A 8)",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90900000",
+    "90919200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Batiments scolaires (marché réservé aux structures d’insertion par l’activité économique - art. L.2113-13 du CCP",
+    "Prestations de nettoyage (marché réservé aux structures d’insertion par l’activité économique – art.L.2113-13 du CCP)",
+    "Prestations de nettoyage (marché réservé aux EA, ESAT et structures équivalents – art.L.2113-12 du CCP)",
+    "Bâtiment sportifs du secteur est du territoire",
+    "Bâtiment sportifs du secteur ouest du territoire",
+    "Aires des gens du voyage"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:727411-2026",
+   "source": "TED",
+   "source_id": "727411-2026",
+   "title": "CENTRALE D'ACHAT - Prestation d'entretien des locaux et la vitrerie pour Dijon Métropole, la Ville de Dijon et son CCAS et les entités de la Centrale d'Achat",
+   "buyer": "Centrale d'achat Dijon Métropole",
+   "published": "2026-10-21",
+   "deadline": "2026-11-19T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/727411-2026",
+   "procedure_id": "d706f380-0225-4f3e-8b87-4a1d1c25d469",
+   "description": "L'accord-cadre concerne les prestations de nettoyage et d'entretien régulier de locaux ainsi que des prestations de nettoyage des vitres dans divers locaux de la Ville de Dijon, du CCAS, de Dijon Métropole et entités Centrale d'Achat, répartis sur plusieurs sites",
+   "departments": [],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "90911200",
+    "90919200",
+    "90911300"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Sites tertiaires Dijon Métropole et entités Centrale d'Achat - Lot Réservé aux Structures d'Insertion par l'Activité Economique",
+    "Lot n°2 - Sites tertiaires Ville de Dijon, son CCAS et entités Centrale d'Achat - Lot Réservé aux Structures d'Insertion par l'Activité Economique",
+    "Lot n°3 - Sites culturels Ville de Dijon et entités de la Centrale d'Achat - Lot Réservé aux Structures d'Insertion par l'Activité Economique",
+    "Lot n°4 - Sites techniques Ville de Dijon, Dijon métropole et entités de la Centrale d'Achat - Lot Réservé aux Structures d'Insertion par l'Activité Economique",
+    "Lot n°6 - Autres sites Ville de Dijon et Dijon métropole - Lot Réservé aux Etablissement et Services d'Aides par le Travail",
+    "Lot n°7 - Cité Internationale de la Gastronomie et du Vin - Lot Réservé aux Etablissement et Services d'Aides par le Travail",
+    "Lot n°8 - Les Halles (Ville de Dijon) - Lot Réservé aux Etablissement et Services d'Aides par le Travail",
+    "Lot n°9 - Vitrerie Entités de la Centrale d'Achat",
+    "Lot n°10 - Prestations sur sites non inclus dans les lots principaux, VD, DM, CCAS et entités Centrale d'Achat"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:727639-2026",
+   "source": "TED",
+   "source_id": "727639-2026",
+   "title": "PRESTATIONS DE NETTOYAGE ET D’ENTRETIEN DES TOITURES DES BATIMENTS COMMUNAUX",
+   "buyer": "Commune de Fresnes",
+   "published": "2026-10-21",
+   "deadline": "2026-11-10T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/727639-2026",
+   "procedure_id": "863a32b4-c5b8-4e81-9fc7-35978b897ed1",
+   "description": "PRESTATIONS DE NETTOYAGE ET D’ENTRETIEN DES TOITURES DES BATIMENTS COMMUNAUX",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911200",
+    "90400000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "nettoyage et entretien des toitures plates terrasses",
+    "nettoyage et entretien des toitures pentues"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:727667-2026",
+   "source": "TED",
+   "source_id": "727667-2026",
+   "title": "ENTRETIEN DES ESPACES VERTS ET D’ELAGAGE DES CENTRES DE LA SPL AFPAR",
+   "buyer": "SPL AFPAR (974)",
+   "published": "2026-10-21",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/727667-2026",
+   "procedure_id": "1438fe69-a03c-4617-8646-6c4b15569149",
+   "description": "MARCHE D'ENTRETIEN DES ESPACES VERTS ET D'ELAGAGE DES CENTRES DE LA SPL AFPAR",
+   "departments": [
+    "974"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "77310000",
+    "77211500"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Zone NORD (SIEGE - CFPA DE SAINT FRANCOIS - CENTRE DE LA JAMAIQUE)",
+    "Zone EST (CFPA SAINT-ANDRE)",
+    "Zone OUEST (CFPA SAINT-PAUL)",
+    "TRAVAUX D'ENTRETIEN, D'ELAGAGE, D'ABATTAGE ET DE DESSOUCHAGE DES ARBRES SUR L'ENSEMBLE DES SITES DE L'AFPAR"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:727936-2026",
+   "source": "TED",
+   "source_id": "727936-2026",
+   "title": "Entretien des espaces verts",
+   "buyer": "FLERS AGGLO",
+   "published": "2026-10-21",
+   "deadline": "2026-11-03T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/727936-2026",
+   "procedure_id": "bb7d9a5a-9d54-420c-81ec-352f1cef5d01",
+   "description": "L'accord-cadre est passé en application des articles L2113-6 et 7 du Code de la Commande Publique dans le cadre du groupement d'achat de fournitures courantes et services composé de la Ville de Flers, de la Communauté d'Agglomération Flers Agglo et de Normand'Innov; dont Flers-Agglo assure la coordination",
+   "departments": [],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 3180000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:728327-2026",
+   "source": "TED",
+   "source_id": "728327-2026",
+   "title": "Prestation de nettoyage des locaux de la commune de Malaunay",
+   "buyer": "Commune de Malaunay",
+   "published": "2026-10-21",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/728327-2026",
+   "procedure_id": "3fe5eb20-dad0-413a-a8b3-b10d7d497e14",
+   "description": "* La présente consultation relève d'un marché de services et a pour objet les prestations de nettoyage des locaux de la ville. * La consultation fait l'objet d'un lot unique. * Le marché est simple, à prix global et forfaitaire. * Le marché est conclu pour une durée d'un an à compter du 1er mars 2027. Il est reconductible trois fois",
+   "departments": [],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "90911200",
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:728613-2026",
+   "source": "TED",
+   "source_id": "728613-2026",
+   "title": "ACHAT DE PRESTATIONS DE SERVICES POUR LE NETTOYAGE DES LOCAUX",
+   "buyer": "SPL AFPAR (974)",
+   "published": "2026-10-21",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/728613-2026",
+   "procedure_id": "d8ff6d9b-bf40-46b0-a0ed-c36c3249cedc",
+   "description": "Le présent marché a pour objet les prestations de nettoyage des locaux de l'AFPAR",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Zone NORD (SIEGE - CFPA DE SAINT FRANCOIS - CENTRE DE LA JAMAIQUE)",
+    "Zone EST (CFPA SAINT-ANDRE)",
+    "Zone OUEST (CFPA SAINT-PAUL)",
+    "Zone SUD (CFPA SAINT-PIERRE)"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:728942-2026",
+   "source": "TED",
+   "source_id": "728942-2026",
+   "title": "ACCORD CADRE N°26078-S-AC DE PRESTATIONS DE PROPRETE, HYGIENE POUR LES SITES?: GRAND SITE DU JARDIN DES PLANTES, SITE DE BRUNOY - CHEVRELOUP-LISSES, MUSEE DE L'HOMME, SITE DE LA HAUTE TOUCHE, SITE DE VAL RAHMEH A MENTON, SITE DE CONCARNEAU, SITE DE DINARD POUR LE COMPTE DU MUSEUM NATIONAL D'HISTOIRE NATURELLE.",
+   "buyer": "Museum National d'Histoire Naturelle",
+   "published": "2026-10-21",
+   "deadline": "2026-11-24T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/728942-2026",
+   "procedure_id": "f1c397fe-8df6-4bf7-b42b-3c92b47fbccb",
+   "description": "ACCORD CADRE N°26078-S-AC DE PRESTATIONS DE PROPRETE, HYGIENE POUR LES SITES?: GRAND SITE DU JARDIN DES PLANTES, SITE DE BRUNOY - CHEVRELOUP-LISSES, MUSEE DE L'HOMME, SITE DE LA HAUTE TOUCHE, SITE DE VAL RAHMEH A MENTON, SITE DE CONCARNEAU, SITE DE DINARD POUR LE COMPTE DU MUSEUM NATIONAL D'HISTOIRE NATURELLE.",
+   "departments": [],
+   "regions": [
+    "Bretagne",
+    "Centre-Val de Loire",
+    "Provence-Alpes-Côte d'Azur",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de propreté et hygiène du Grand Site du Jardin des Plantes et des sites de Brunoy, Chèvreloup et Lisses",
+    "Prestations de propreté et hygiène des locaux du Musée de l'Homme",
+    "Prestations de propreté et hygiène du site de la Réserve Zoologique de la Haute-Touche",
+    "Prestations de propreté et hygiène du site Val Rahmeh à Menton",
+    "Prestations de propreté et hygiène du site de Concarneau",
+    "Prestations de propreté et hygiène du site de Dinard"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:729693-2026",
+   "source": "TED",
+   "source_id": "729693-2026",
+   "title": "Nettoyage de batiments communaux",
+   "buyer": "VILLE DE FORBACH",
+   "published": "2026-10-21",
+   "deadline": "2026-11-20T11:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/729693-2026",
+   "procedure_id": "ad2c993f-9583-4c5d-85c9-1b0f66f906d1",
+   "description": "Nettoyage de batiments communaux",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 700000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Ecoles élémentaires et gymnases attenants écoles élémentaires et gymnases attenants",
+    "Les infrastructures sportives",
+    "Nettoyage des bâtiments Associatifs et Socio Culturels",
+    "Nettoyage des Centres sociaux",
+    "Prestation de nettoyage de la vitrerie des écoles élémentaires et autres bâtiments"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
   }
  ]
 }
