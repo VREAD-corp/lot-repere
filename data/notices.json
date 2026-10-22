@@ -98740,6 +98740,153 @@
    ]
   },
   {
+   "id": "boamp:26-102819",
+   "source": "BOAMP",
+   "source_id": "26-102819",
+   "title": "Prestations d'élagage, abattage et dessouchage des arbres",
+   "buyer": "Ville de Saint-Paul-Trois-Châteaux",
+   "published": "2026-10-22",
+   "deadline": "2026-11-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102819",
+   "procedure_id": null,
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Le contrat est susceptible d'être reconduit dans les conditions du cahier des charges. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent les options (prestations similaires et reconductions). Le pouvoir adjudicateur pourra confier au titulaire de l'accord-cadre, en application des articles L…",
+   "departments": [
+    "26"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77211400"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-102988",
+   "source": "BOAMP",
+   "source_id": "26-102988",
+   "title": "Nettoyage des locaux communaux et vitrerie",
+   "buyer": "Commune du Croisic",
+   "published": "2026-10-22",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102988",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "44",
+    "56",
+    "85"
+   ],
+   "regions": [
+    "Bretagne",
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90911000",
+    "90919200",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : Nettoyage des locaux communaux",
+    "2 : Vitrerie"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "363"
+   ]
+  },
+  {
+   "id": "boamp:26-102989",
+   "source": "BOAMP",
+   "source_id": "26-102989",
+   "title": "Prestation De Nettoyage Des Locaux Pour Le Sdis De L'Yonne",
+   "buyer": "Sdis de l'Yonne",
+   "published": "2026-10-22",
+   "deadline": "2026-11-13T13:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102989",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "89"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "90910000",
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : Bâtiments localisés sur Auxerre et Joigny . Auxerre Et Joigny",
+    "2 : Bâtiments localisés sur Sens. Sens",
+    "3 : Bâtiments localisés sur Avallon et Tonnerre. Avallon Et Tonnerre"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
    "id": "ted:730253-2026",
    "source": "TED",
    "source_id": "730253-2026",
