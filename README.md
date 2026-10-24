@@ -1,5 +1,7 @@
 # Lot Repéré
 
+> **Fusionné dans ao-formation le 24/10/2026** (décision des fondateurs, recentrage Jalonel). Les pages sont maintenant sur https://ao-formation.jalonel.com/secteurs/ (rubrique « Veille AO »), construites par `VREAD-corp/veille-ao-formation` (`secteurs/`), qui relève aussi les avis. Ce dépôt ne publie plus que les pages de redirection de lot-repere.jalonel.com (`redirects/`, générées par `tools/redirects.py` : canonical, meta refresh, lien visible ; 404.html renvoie tout autre chemin vers le même chemin sous /secteurs/). Plus de relevé planifié ni d'export hebdomadaire ici. Le code ci-dessous est gardé pour l'historique ; la version vivante est dans veille-ao-formation.
+
 Open French public tenders in three trades, **nettoyage et propreté des locaux**, **espaces verts** and **sécurité privée**, refreshed twice a day from free official open data and published as a static site with filters, RSS/Atom, JSON and CSV/ICS downloads (`telechargements/lot-repere-ouverts.csv`, `telechargements/lot-repere-echeances.ics`, rebuilt at every update and served by the site). Paid add-on: a daily e-mail alert per trade, region and keyword (prepaid 3 or 12 months, B2B).
 
 **Site:** https://lot-repere.jalonel.com/ (served at the root of the subdomain; `--site-url` / `SITE_URL` default)
